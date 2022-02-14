@@ -5,14 +5,24 @@ theme        = "hello-friend-ng"
 paginate     = 10
 publishDir = "docs"
 
+disableHugoGeneratorInject = true
+enableEmoji = true
+footnoteReturnLinkContents = "↩"
+hasCJKLanguage = true
+googleAnalytics = "UA-123-45"
+
+# disableKinds = ["taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
+  
 
   # Subtitle for home
-  homeSubtitle = "Lighting TD / Generalist / Graphics Developer"
+  homeSubtitle = "Lighting TD / CG Generalist / Graphics Developer"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -25,6 +35,21 @@ publishDir = "docs"
   keywords = "CG, Lighting, Render, blog"
   images = [""]
 
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/jaechoidev/"
+    weight = 10
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://www.twitter.com/jaechoidev/"
+    weight = 20
+
+  [[params.social]]
+    name = "instagram"
+    url = "https://www.instagram.com/jaechoi.dev/"
+    weight = 30
+
 [taxonomies]
     category = "blog"
     tag      = "tags"
@@ -33,7 +58,7 @@ publishDir = "docs"
 [languages]
   [languages.en]
     title = "Hello, I'm Jae"
-    subtitle = "Lighting TD / Generalist / Graphics Developer"
+    subtitle = "Lighting TD / CG Generalist / Graphics Developer"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"

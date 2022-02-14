@@ -7,13 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 13 Feb 2022 20:25:04 -0800</lastBuildDate><atom:link href="https://jaechoidev.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Feb 2022 00:11:07 -0800</lastBuildDate><atom:link href="https://jaechoidev.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>testing</title>
-      <link>https://jaechoidev.github.io/notes/test/</link>
+      <title>Temp</title>
+      <link>https://jaechoidev.github.io/notes/temp/</link>
+      <pubDate>Mon, 14 Feb 2022 00:11:07 -0800</pubDate>
+      
+      <guid>https://jaechoidev.github.io/notes/temp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jaechoidev.github.io/notes/first-post/</link>
       <pubDate>Sun, 13 Feb 2022 20:25:04 -0800</pubDate>
       
-      <guid>https://jaechoidev.github.io/notes/test/</guid>
+      <guid>https://jaechoidev.github.io/notes/first-post/</guid>
       <description></description>
     </item>
     
