@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>about on Hello, I&#39;m Jae</title>
+    <link>https://jaechoidev.github.io/tags/about/</link>
+    <description>Recent content in about on Hello, I&#39;m Jae</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 13 Feb 2022 20:25:04 -0800</lastBuildDate><atom:link href="https://jaechoidev.github.io/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hi, my name is Jae.</title>
+      <link>https://jaechoidev.github.io/about/</link>
+      <pubDate>Sun, 13 Feb 2022 20:25:04 -0800</pubDate>
+      
+      <guid>https://jaechoidev.github.io/about/</guid>
+      <description>Hi, my name is Jae. I’m Lighting TD at ICON Creative Studio, Vancouver, Canada. I have worked on 3D Animation industry for about 4 years. I started my career as lighter and compositor and then kept moving to the technical side step by step. I like learning and digging something new.
+My interests are shading, rendering and cutting-edge real time related technology. For better understanding on them, I’m taking CS courses as part time student.</description>
+    </item>
+    
+  </channel>
+</rss>

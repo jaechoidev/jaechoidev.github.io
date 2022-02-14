@@ -3,6 +3,7 @@ title        = "Dev Note"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
+publishDir = "docs"
 
 [params]
   dateform        = "Jan 2, 2006"
