@@ -18,51 +18,43 @@ tags:
  
 ### **Work experience**
 
-#### Department TD (Lighting) @ ICON Creative Studio (2022.02 -)
-Vancouver, BC, Canada
-
+#### Department TD (Lighting)
+ICON Creative Studio, Vancouver, BC – 2022.02 -
 * Support LRC issues, tools and workflows by collaborating artists and pipeline TDs.
 ---
 
-#### ATD - Lighting @ Digital Domain (2021.07 - 2021.10)
-Vancouver, BC, Canada
-
+#### ATD - Lighting
+Digital Domain, Vancouver, BC – 2021.07 - 2021.10
 * Support Lighting Pipeline issues and tools debugging.
 ---
 
-#### Pipeline TD @ ICON Creative Studio (2021.02 - 2021.07)
-Vancouver, BC, Canada
-
+#### Pipeline TD
+ICON Creative Studio, Vancouver, BC – 2021.02 - 2021.07
 * Tools and scripts I wrote were considered as useful for other shows
 * Moved from LRC to pipeline team to support shows running and preparing in the studio, mostly I supported LRC department
 ---
 
-#### Lighter and Compositor @ ICON Creative Studio (2018.04 - 2021.02)
-Vancouver, BC, Canada
-
+#### Lighter and Compositor
+ICON Creative Studio, Vancouver, BC – 2018.04 - 2021.02
 * Worked on the lighting, rendering and compositing shots and also wrote some tools and scripts for artist in the show.
   * Monsters at Work Season 1 (Disney +)
   * Rocketeer Season 1 (Disney junior)
 ---
 
-#### Lighter and Compositor @ TOIION (2017.09 - 2018.09)
-Seongnam, South Korea
-
+#### Lighter and Compositor
+TOIION, South Korea – 2017.09 - 2018.09
 * Worked on the lighting, rendering and compositing shots.
   * Fancy Nancy Season 1 (Disney junior)
-
 ---
 
 ### **Education**
 
-#### Thompson Rivers University (2021 - 2024, expected)
-Vancouver, BC, Canada
-
+#### Thompson Rivers University
+Vancouver, BC, Canada / 2021 - 2024 (expected)
 * Pursuing Bachelor's Degree in Computing Science
 
-#### Korea University (2004 - 2014)
-Seoul, South Korea
-
+#### Korea University
+South Korea / 2004 - 2014
 * Bachelor's Degree in Mechanical Engineering
 
 ---
