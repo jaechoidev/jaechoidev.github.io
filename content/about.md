@@ -19,54 +19,37 @@ tags:
 ### **Work experience**
 
 #### Department TD (Lighting)
-
 ICON Creative Studio, Vancouver, BC – 2022.02 -
 
----
-
-#### Associate Technical Artist
-
-EA Create, Vancouver, BC – 2022.01 - 2022.02
-
+* Support LRC issues, tools and workflows by collaborating artists and pipeline TDs.
 ---
 
 #### ATD - Lighting
-
 Digital Domain, Vancouver, BC – 2021.07 - 2021.10
 
-Support Marvel's TV show for lighting pipeline
-
+* Support Lighting Pipeline issues and tools debugging.
 ---
 
 #### Pipeline TD
-
 ICON Creative Studio, Vancouver, BC – 2021.02 - 2021.07
 
-Tools and scripts I wrote were considered as useful for other shows, 
-
-I moved to pipeline team to support shows running and preparing in the studio, mostly I supported LRC department
-
+* Tools and scripts I wrote were considered as useful for other shows
+* Moved from LRC to pipeline team to support shows running and preparing in the studio, mostly I supported LRC department
 ---
 
 #### Lighter and Compositor
-
 ICON Creative Studio, Vancouver, BC – 2018.04 - 2021.02
 
-Worked on the lighting, rendering and compositing shots and also wrote some tools and scripts for artist in the show.
-
-Monsters at Work Season 1 (Disney +)
-
-Rocketeer Season 1 (Disney junior)
-
+* Worked on the lighting, rendering and compositing shots and also wrote some tools and scripts for artist in the show.
+  * Monsters at Work Season 1 (Disney +)
+  * Rocketeer Season 1 (Disney junior)
 ---
 
 #### Lighter and Compositor
-
 TOIION, South Korea – 2017.09 - 2018.09
 
-Worked on the lighting, rendering and compositing shots.
-
-Fancy Nancy Season 1 (Disney junior)
+* Worked on the lighting, rendering and compositing shots.
+  * Fancy Nancy Season 1 (Disney junior)
 
 ---
 
@@ -86,7 +69,7 @@ Bachelor's Degree in Mechanical Engineering
 
 ---
 
-### Skills   
+### **Skills**   
 - Languages
   - Python
   - C#
