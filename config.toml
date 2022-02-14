@@ -1,4 +1,4 @@
-baseurl      = "https://jaechoidev.github.io"
+baseurl      = "https://jaechoidev.github.io/"
 title        = "Dev Note"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
