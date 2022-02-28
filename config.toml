@@ -82,7 +82,7 @@ googleAnalytics = "UA-123-45"
       name       = "Projects"
       url        = "/projects"
     [[menu.main]]
-      identifier = "daily"
-      name       = "Daily"
-      url        = "/daily"
+      identifier = "dailies"
+      name       = "Dailies"
+      url        = "/dailies"
     
