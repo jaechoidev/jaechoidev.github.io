@@ -51,7 +51,7 @@ googleAnalytics = "UA-123-45"
     weight = 30
 
 [taxonomies]
-    category = "blog"
+    category = "categories"
     tag      = "tags"
     series   = "series"
 
@@ -81,7 +81,7 @@ googleAnalytics = "UA-123-45"
       identifier = "projects"
       name       = "Projects"
       url        = "/projects"
-    [[meny.main]]
+    [[menu.main]]
       identifier = "daily"
       name       = "Daily"
       url        = "/daily"
