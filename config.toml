@@ -41,6 +41,11 @@ googleAnalytics = "UA-123-45"
     weight = 10
 
   [[params.social]]
+    name = "github"
+    url = "https://www.github.com/jaechoidev/"
+    weight = 20
+
+  [[params.social]]
     name = "twitter"
     url = "https://www.twitter.com/jaechoidev/"
     weight = 20
