@@ -40,9 +40,11 @@ tags:
 
 ### Education
 
-*Thompson Rivers University* : Pursuing Bachelors in Computing Science / 2021 - 2024 (expected)
+*Thompson Rivers University* : Took 4 courses of Computing Science Online 
+(C++, Python/C#, DSA, Computer Systems) / 2021 - 2022
 
-*Korea University* : Bachelor's Degree in Mechanical Engineering, South Korea / 2004 - 2014
+*Korea University* : Bachelor's Degree in Mechanical Engineering, 
+South Korea / 2004 - 2014
 
 ---
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on Hello, I&#39;m Jae</title>
+    <link>https://jaechoidev.github.io/notes/</link>
+    <description>Recent content in Notes on Hello, I&#39;m Jae</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 27 Mar 2022 21:08:07 -0700</lastBuildDate><atom:link href="https://jaechoidev.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Selection Tool in Maya</title>
+      <link>https://jaechoidev.github.io/notes/selection-tool/</link>
+      <pubDate>Sun, 27 Mar 2022 21:08:07 -0700</pubDate>
+      
+      <guid>https://jaechoidev.github.io/notes/selection-tool/</guid>
+      <description>I&amp;rsquo;ve been working on the selection tool which can select objects by an proxy object. The proxy can be a cube or sphere, and same logic is implemented to the camera distance selection as well. The main concept came from a blog post about frustum culling. It refers something like basic collision logic. To do this, I needed normal vector and a point for each planes. Every objects in the scene will be checked if the farthest bbox point is on the same direction of plane normal or not.</description>
+    </item>
+    
+  </channel>
+</rss>
