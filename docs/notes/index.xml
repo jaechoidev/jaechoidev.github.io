@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 27 Mar 2022 21:08:07 -0700</lastBuildDate><atom:link href="https://jaechoidev.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 May 2022 23:28:05 -0700</lastBuildDate><atom:link href="https://jaechoidev.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computer Graphics (CMU 15-462/662)</title>
+      <link>https://jaechoidev.github.io/notes/computer-graphics/</link>
+      <pubDate>Fri, 20 May 2022 23:28:05 -0700</pubDate>
+      
+      <guid>https://jaechoidev.github.io/notes/computer-graphics/</guid>
+      <description>Youtube Playlist https://youtube.com/playlist?list=PL9_jI1bdZmz2emSh0UQ5iOdT2xRHFHL7E
+Course Link http://15462.courses.cs.cmu.edu/spring2022/
+Assignment  Assignment 0.0 Assignment 0.5 Assignment 1.0 Assignment 2.0 Assignment 3.0 Assignment 4.0  Outline  Course Introduction Math Review Part I (Linear Algebra) Math Review Part II (Vector Calculus) Drawing a Triangle [] Coordinate Spaces and Transformations [] 3D Rotations and Complex Representations [] Perspective Projection and Texture Mapping [] Depth and Transparency [] Intro to Geometry [] Midterm Review / Local Operations on Manifolds [] Geometry Processing [] Geometric Queries [] Spatial Data Structures [] Color / Radiometry [] The Rendering Equation [] A3 PathTracer Specifics [] Numerical Integration [] Monte Carlo Ray Tracing [] Variance Reduction [] More Variance Reduction [] Introduction to Animation [] Dynamics and Time Integration [] Introduction to Optimization [] Physically-Based Animation and PDEs  </description>
+    </item>
+    
     <item>
       <title>Selection Tool in Maya</title>
       <link>https://jaechoidev.github.io/notes/selection-tool/</link>
