@@ -8,7 +8,8 @@ tags:
   - untagged
 ---
 
-
+### Textbook 
+Fundamentals of Computer Graphics - 5th edition (Peter Shirley, Steve Marschner, and so on)
 
 ### Youtube Playlist 
 https://youtube.com/playlist?list=PL9_jI1bdZmz2emSh0UQ5iOdT2xRHFHL7E
