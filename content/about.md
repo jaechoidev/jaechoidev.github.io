@@ -8,7 +8,7 @@ tags:
   - about
 ---
 
-  Hi, my name is Jae. I’m working as a Lighting TD at ICON Creative Studio, Vancouver, Canada. I have worked on 3D Animation industry for about 4 years. My career was started as lighter and compositor and then kept moving to the technical side step by step. I like learning and digging something new.
+  Hi, my name is Jae. I’m working as a Pipeline TD at ICON Creative Studio, Vancouver, Canada. I have worked on 3D Animation industry for about 4 years. My career was started as lighter and compositor and then kept moving to the technical side step by step. I like learning and digging something new.
 
   My interests are shading, rendering and cutting-edge real time related technology. For better understanding on them, I’m taking CS courses as part time student.
 
@@ -51,10 +51,10 @@ South Korea / 2004 - 2014
 ### Skills
 Dev
   - Python
-  - Swift
-  - SwiftUI
   - Git / Gitlab
-  - Jira  
+  - Jira
+  - Youtrack
+  - Shotgrid
 
 DCCs
   - Substance (designer & painter)
