@@ -1,6 +1,6 @@
 ---
 title: "Computer Graphics (CMU 15-462/662)"
-date: 2022-05-20T23:28:05-07:00
+date: 2023-05-20T23:28:05-07:00
 draft: true
 toc: false
 images:

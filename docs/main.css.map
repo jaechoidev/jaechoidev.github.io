@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/jaechoi/workspace/repo/jaechoidev.github.io",
+	"sourceRoot": "/Users/jaechoi/Documents/workspace/repo/jaechoidev.github.io",
 	"sources": [
 		"themes/hello-friend-ng/assets/scss/main.scss",
 		"themes/hello-friend-ng/assets/scss/_normalize.scss",

@@ -18,7 +18,7 @@ tags:
 
 ### Work experience
 
-*Department TD (Lighting)* @ ICON Creative Studio, Vancouver, BC – 2022.02 -
+*Pipeline TD (Lighting)* @ ICON Creative Studio, Vancouver, BC – 2022.02 - 
 * Support LRC issues, tools and workflows by collaborating artists and pipeline TDs.
 
 *ATD - Lighting* @ Digital Domain, Vancouver, BC – 2021.07 - 2021.10
@@ -49,17 +49,16 @@ South Korea / 2004 - 2014
 ---
 
 ### Skills
-Languages
+Dev
   - Python
-  - C#
-  - C++
-  
+  - Swift
+  - SwiftUI
+  - Git / Gitlab
+  - Jira  
+
 DCCs
   - Substance (designer & painter)
   - Maya (+Python, Arnold and Vray)
   - Nuke (+Python)
-  - Houdini
+  - Houdini 
   
-Engines
-  - Unity
-  - UE4 & UE5
