@@ -22,7 +22,7 @@ googleAnalytics = "UA-123-45"
   
 
   # Subtitle for home
-  homeSubtitle = "Software Developer / Indie Hacker"
+  homeSubtitle = "Developer / Indie Hacker"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -63,7 +63,7 @@ googleAnalytics = "UA-123-45"
 [languages]
   [languages.en]
     title = "Hello, I'm Jae"
-    subtitle = "Software Developer / Indie Hacker"
+    subtitle = "Developer / Indie Hacker"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
