@@ -1,5 +1,5 @@
 ---
-title: "Daily Review Templates"
+title: "10 weeks challenge - day 01"
 date: 2022-07-01T22:16:13-07:00
 draft: true
 toc: false
@@ -14,15 +14,12 @@ I'm starting a web development challenge with Nomadcoders(nomadcoders.co). This 
 
 ### Today I learned
 
-* 
+- basic understanding on HTML, CSS and JS
+- environment setup
 
 ### Resources
 
-* 
-
-### Keywords and key concepts
-
-* 
-
-
-
+- [kokoa clone 1.5 - 1.9, 2.0 - 2.2](https://nomadcoders.co/kokoa-clone)
+- prettier (VSCode extension)
+- material icon theme (VSCode extension)
+- community material theme (VSCode extension)
