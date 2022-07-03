@@ -91,3 +91,7 @@ googleAnalytics = "UA-123-45"
       name       = "Notes"
       url        = "/notes"
     
+    [[menu.main]]
+      identifier = "TIL"
+      name       = "TIL"
+      url        = "/til"
