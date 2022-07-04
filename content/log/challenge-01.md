@@ -27,3 +27,23 @@ I'm starting a web development challenge with Nomadcoders(nomadcoders.co). This 
 ### Challenge
 
 - quiz about basic concepts of HTML and CSS
+
+### Additional learning (React JS)
+
+- look through React basic course
+
+  - state : variable(or property) that is updating when the binded callback function is called (I'm not sure the 'binding' is a right way to explain it)
+  - props : passed object that is containing attributes from user-defined component
+  - function based components : seems like it is newer way to make React Components than Class based components. It is creating components as function with useEffect, useState and etc, instead of inheriting `React.Component`.
+  - useEffect
+  - useState
+
+  - npx create-react-app : CRA command
+  - npm start : running local server
+
+  - styled components : there are 3 other ways to use CSS in React, but `styled components` library (https://styled-components.com/) is the best way to write css codes for React components.
+    - configurable (with props): styled components can get props
+    ```
+    ${(props) => props.bgColor};
+    ```
+    - extend(by inheriting): styled(styleComponent)
