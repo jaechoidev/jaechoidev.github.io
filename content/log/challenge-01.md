@@ -1,6 +1,6 @@
 ---
 title: "10 weeks challenge - day 01"
-date: 2022-07-01T22:16:13-07:00
+date: 2022-07-04T04:00:00-07:00
 draft: true
 toc: false
 images:
@@ -23,3 +23,7 @@ I'm starting a web development challenge with Nomadcoders(nomadcoders.co). This 
 - prettier (VSCode extension)
 - material icon theme (VSCode extension)
 - community material theme (VSCode extension)
+
+### Challenge
+
+- quiz about basic concepts of HTML and CSS
