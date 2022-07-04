@@ -1,6 +1,6 @@
 ---
 title: "10 weeks challenge - day 01"
-date: 2022-07-04T04:00:00-07:00
+date: 2022-07-03T20:00:00-07:00
 draft: true
 toc: false
 images:
