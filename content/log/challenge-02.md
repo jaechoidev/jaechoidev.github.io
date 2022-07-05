@@ -15,11 +15,13 @@ Day2 (July 5, 2022)
 - kokoa clone #2.3 ~ #2.11
 - Quiz
 - posting a blog
-- React Master Class #3.0 - #3.7
+- React Master Class #3.0 - #3.2
 
 ### Overview
 
-started waking up at 4 am to make some time to focus. Active hours will be 5pm-9pm(PST) and 4am-8am(PST). Check-ins at 6pm (daily goals, lectures, challenges, etc) and check-out at 7am(check goals, posting )
+- It is hard to have time to focus on learning outside of work.
+- Tagging #100dayofcode on twitter post, and then it seems like being read by someone else.
+- still warming up with quizes, tomorrow will be first assignment day for challenge.
 
 ### Today I learned (reviewed)
 
@@ -33,7 +35,7 @@ started waking up at 4 am to make some time to focus. Active hours will be 5pm-9
 ### Additional learning
 
 - styled components recap : confusing..
-- typescript
+- typescript, just started.
 
 ### Resources
 
