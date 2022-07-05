@@ -20,6 +20,7 @@ I'm starting a web development challenge with Nomadcoders(nomadcoders.co). This 
 ### Resources
 
 - [kokoa clone 1.5 - 1.9, 2.0 - 2.2](https://nomadcoders.co/kokoa-clone)
+- [React JS](https://nomadcoders.co/react-masterclass/)
 - prettier (VSCode extension)
 - material icon theme (VSCode extension)
 - community material theme (VSCode extension)
@@ -28,7 +29,7 @@ I'm starting a web development challenge with Nomadcoders(nomadcoders.co). This 
 
 - quiz about basic concepts of HTML and CSS
 
-### Additional learning (React JS)
+### Additional learning
 
 - look through React basic course
 
@@ -41,9 +42,14 @@ I'm starting a web development challenge with Nomadcoders(nomadcoders.co). This 
   - npx create-react-app : CRA command
   - npm start : running local server
 
-  - styled components : there are 3 other ways to use CSS in React, but `styled components` library (https://styled-components.com/) is the best way to write css codes for React components.
+  - styled components : there are 3 other ways to use CSS in React, but `styled components` library (https://styled-components.com/) is the best way to write css codes for React components. (https://styled-components.com/docs/basics)
     - configurable (with props): styled components can get props
     ```
     ${(props) => props.bgColor};
     ```
     - extend(by inheriting): styled(styleComponent)
+    - extend : `as` props
+    - styled.tag.attrs({required:true})``;
+    - import {keyframes} from "styled-components"
+    - ${styled-component} pseudo selector
+    - themes : import {ThemeProvider} from "styled-components";

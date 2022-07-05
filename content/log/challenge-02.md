@@ -1,12 +1,21 @@
 ---
 title: "10 weeks challenge - day 02"
-date: 2022-07-05T04:00:00-07:00
+date: 2022-07-04T20:00:00-07:00
 draft: true
 toc: false
 images:
 tags:
   - untagged
 ---
+
+### Challenge Tasks
+
+Day2 (July 5, 2022)
+
+- kokoa clone #2.3 ~ #2.11
+- Quiz
+- posting a blog
+- React Master Class #3.0 - #3.7
 
 ### Overview
 
@@ -21,7 +30,13 @@ started waking up at 4 am to make some time to focus. Active hours will be 5pm-9
   - semantic html
   - etc
 
+### Additional learning
+
+- styled components recap : confusing..
+- typescript
+
 ### Resources
 
 - [Full 10 weeks schedule](https://nomadcoders.notion.site/10-_Schedule-4a545b92109e40fa9ad0d6f6666670bb)
 - [kokoa clone 2.3 - 2.11](https://nomadcoders.co/kokoa-clone)
+- [React JS](https://nomadcoders.co/react-masterclass/)
