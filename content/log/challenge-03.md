@@ -1,5 +1,5 @@
 ---
-title: "10 weeks challenge - day 02"
+title: "10 weeks challenge - day 03"
 date: 2022-07-05T20:00:00-07:00
 draft: true
 toc: false
