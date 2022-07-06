@@ -26,4 +26,4 @@ Day3 (July 6, 2022)
 
 ### Resources
 
-- [kokoa clone 2.3 - 2.11](https://nomadcoders.co/kokoa-clone)
+- [kokoa clone 3.0 ~ 3.5](https://nomadcoders.co/kokoa-clone)
