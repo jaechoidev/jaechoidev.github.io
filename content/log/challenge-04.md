@@ -23,8 +23,8 @@ Day4 (July 7, 2022)
 
 ### Today I learned (reviewed)
 
-- reviewed CSS basics
+- reviewed CSS basics and flexbox
 
 ### Resources
 
-- [kokoa clone 3.0 ~ 3.5](https://nomadcoders.co/kokoa-clone)
+- [kokoa clone 3.6 ~ 3.11](https://nomadcoders.co/kokoa-clone)
