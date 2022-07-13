@@ -20,11 +20,12 @@ Day9 (July 12, 2022)
 
 ### Overview
 
--
+- Writing blog was based on the Korean time, so it's a bit weird to me. Actually this record is about July 11 of my time zone lol........ but now think I'm getting used to it.
 
 ### Today I learned (reviewed)
 
--
+- react review
+- started looking around flutter docs and tutorials
 
 ### Resources
 
