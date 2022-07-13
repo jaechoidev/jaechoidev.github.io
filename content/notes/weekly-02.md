@@ -1,6 +1,6 @@
 ---
 title: "주간회고 week 2(7/8 - 7/15)"
-date: 2050-07-06T00:14:05-07:00
+date: 2050-07-13T00:14:05-07:00
 draft: true
 toc: false
 images:
