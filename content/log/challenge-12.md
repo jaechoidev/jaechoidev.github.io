@@ -1,6 +1,6 @@
 ---
-title: "10 weeks challenge - day 11"
-date: 2022-07-14T20:00:00-07:00
+title: "10 weeks challenge - day 12"
+date: 2022-07-15T20:00:00-07:00
 draft: true
 toc: false
 images:
@@ -10,9 +10,9 @@ tags:
 
 ### Challenge Tasks
 
-Day11 (July 14, 2022)
+Day12 (July 15, 2022)
 
-- kokoa challenge
+- break
 
 ### Overview
 

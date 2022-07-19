@@ -2,19 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jaechoidev.github.io/log/challenge-09/</loc>
-    <lastmod>2022-07-12T20:00:00-07:00</lastmod>
+    <loc>https://jaechoidev.github.io/dailies/</loc>
+    <lastmod>2022-07-18T21:52:11-07:00</lastmod>
   </url><url>
     <loc>https://jaechoidev.github.io/</loc>
-    <lastmod>2022-07-12T20:00:00-07:00</lastmod>
-  </url><url>
-    <loc>https://jaechoidev.github.io/log/</loc>
-    <lastmod>2022-07-12T20:00:00-07:00</lastmod>
+    <lastmod>2022-07-18T21:52:11-07:00</lastmod>
   </url><url>
     <loc>https://jaechoidev.github.io/tags/</loc>
-    <lastmod>2022-07-12T20:00:00-07:00</lastmod>
+    <lastmod>2022-07-18T21:52:11-07:00</lastmod>
+  </url><url>
+    <loc>https://jaechoidev.github.io/dailies/temp/</loc>
+    <lastmod>2022-07-18T21:52:11-07:00</lastmod>
   </url><url>
     <loc>https://jaechoidev.github.io/tags/untagged/</loc>
+    <lastmod>2022-07-18T21:52:11-07:00</lastmod>
+  </url><url>
+    <loc>https://jaechoidev.github.io/log/challenge-13/</loc>
+    <lastmod>2022-07-16T20:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://jaechoidev.github.io/log/</loc>
+    <lastmod>2022-07-16T20:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://jaechoidev.github.io/log/challenge-12/</loc>
+    <lastmod>2022-07-15T20:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://jaechoidev.github.io/log/challenge-11/</loc>
+    <lastmod>2022-07-14T20:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://jaechoidev.github.io/log/challenge-10/</loc>
+    <lastmod>2022-07-13T20:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://jaechoidev.github.io/log/challenge-09/</loc>
     <lastmod>2022-07-12T20:00:00-07:00</lastmod>
   </url><url>
     <loc>https://jaechoidev.github.io/log/challenge-08/</loc>
