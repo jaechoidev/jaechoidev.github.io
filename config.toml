@@ -1,97 +1,88 @@
-baseurl      = "https://jaechoidev.github.io/"
-title        = "Dev Note"
+baseURL = "http://jaechoidev.github.io"
 languageCode = "en-us"
-theme        = "hello-friend-ng"
-paginate     = 10
-publishDir = "docs"
+title = "Better Late Than Never"
+theme = "ezhil"
 
-disableHugoGeneratorInject = true
-enableEmoji = true
-footnoteReturnLinkContents = "↩"
-hasCJKLanguage = true
+copyright = "© Copyright notice"
+
+# Enable syntax highlighting.
+pygmentsstyle = "solarized-dark"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+# Your Google analytics code.
 googleAnalytics = "UA-123-45"
+# Your Disqus sortname.
+disqusShortname = "localhost"
 
-# disableKinds = ["taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+# Number of posts to show in recent posts list (Optional). Defaults to 10.
+paginate = 5
 
+# Number of characters to show in summary.
+summaryLength = 20
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
-  
+    # Blog subtitle which appears below blog title. Supports markdown.
+    subtitle = "Studies on Machine Learning for VFX"
 
-  # Subtitle for home
-  homeSubtitle = "Developer / Indie Hacker"
+    # Content types which are included in home page recent posts list.
+    mainSections = ["posts"]
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+    # Content types which are excludes Disqus comments.
+    disableDisqusTypes = ["page"]
 
-  # Enable sharing buttons, if you like
-  enableSharingButtons = false
+    # If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
+    featherIconsCDN = true
 
-  # Metadata mostly used in document's head
-  description = "dev notes"
-  keywords = "CG, Lighting, Render, blog"
-  images = [""]
+    # Specify favicon (icons/i.png maps to static/icons/i.png). No favicon if not defined.
+    favicon = "icons/myicon.png"
 
-  [[params.social]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/jaechoidev/"
-    weight = 10
+    # Switch to dark mode or auto detect mode from OS (Optional).
+    # "dark" will set mode to dark and "auto" will switch to dark mode if OS is in dark mode.
+    mode = "dark" # "dark" or "auto"
 
-  [[params.social]]
-    name = "github"
-    url = "https://www.github.com/jaechoidev/"
-    weight = 20
+    # Custom CSS added to default styles. Files added to `static` folder is copied as it is to
+    # root by Hugo. For example if you have custom CSS file under `static/css/custom.css` then
+    # you can specify custom css path as `css/custom.css`.
+    customCSS = "css/custom.css"
+    # Custom CSS added to dark mode style.
+    customDarkCSS = "css/custom-dark.css"
 
-  [[params.social]]
-    name = "twitter"
-    url = "https://www.twitter.com/jaechoidev/"
-    weight = 20
+    # Custom list of Javascript files to load. Just like custom CSS you can place js files under
+    # `static/js` folder and specify path here as `js/script-name.js`. You can also specify full url,
+    # for example you may want to include external JS library.
+    customJS = ["js/abc.js", "js/xyz.js", "https://code.jquery.com/jquery-3.4.1.js"]
 
-  [[params.social]]
-    name = "instagram"
-    url = "https://www.instagram.com/jaechoi.dev/"
-    weight = 30
+# Main menu which appears below site header.
 
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 1
+
+[[menu.main]]
+name = "posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+
+# Social media links which shows up on site header.
+# Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/jaechoidev"
+
+[[params.social]]
+name = "Linkedin"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/jaechoidev"
+
+# Enable tags.
 [taxonomies]
-    category = "categories"
-    tag      = "tags"
-    series   = "series"
-
-[languages]
-  [languages.en]
-    title = "Hello, I'm Jae"
-    subtitle = "Developer / Indie Hacker"
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
-
-    [languages.en.params.logo]
-      logoText = "./index.html"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
-
-  # And you can even create generic menu
-  [menu]
-    [[menu.main]]
-      identifier = "about"
-      name       = "About"
-      url        = "/about"
-    [[menu.main]]
-      identifier = "projects"
-      name       = "Projects"
-      url        = "/projects"
-    [[menu.main]]
-      identifier = "Notes"
-      name       = "Notes"
-      url        = "/notes"
-    
-#    [[menu.main]]
-#      identifier = "LOG"
-#      name       = "Log"
-#      url        = "/log"
+   tag = "tags"
