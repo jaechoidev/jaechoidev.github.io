@@ -23,7 +23,7 @@ summaryLength = 20
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "Studies on Machine Learning for VFX"
+    subtitle = "Software Engineering and Machine Learning in VFX"
 
     # Content types which are included in home page recent posts list.
     mainSections = ["posts"]
