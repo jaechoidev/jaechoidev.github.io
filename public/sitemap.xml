@@ -3,19 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://jaechoidev.github.io/</loc>
-    <lastmod>2023-05-28T01:52:13-07:00</lastmod>
+    <lastmod>2022-11-27T21:41:42-08:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/posts/</loc>
-    <lastmod>2023-05-28T01:52:13-07:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/tags/</loc>
-    <lastmod>2023-05-28T01:52:13-07:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/posts/temp/</loc>
-    <lastmod>2023-05-28T01:52:13-07:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/tags/untagged/</loc>
-    <lastmod>2023-05-28T01:52:13-07:00</lastmod>
+    <lastmod>2022-11-27T21:41:42-08:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/posts/testing/</loc>
     <lastmod>2022-11-27T21:41:42-08:00</lastmod>
@@ -24,6 +15,9 @@
     <lastmod>2022-11-27T09:39:00+08:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/tags/tag/</loc>
+    <lastmod>2000-03-18T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/tags/</loc>
     <lastmod>2000-03-18T00:00:00+08:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/tags/testing/</loc>
