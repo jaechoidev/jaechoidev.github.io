@@ -7,25 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sun, 27 Nov 2022 21:41:42 -0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>testing</title>
-      <link>http://jaechoidev.github.io/posts/testing/</link>
-      <pubDate>Sun, 27 Nov 2022 21:41:42 -0800</pubDate>
-      
-      <guid>http://jaechoidev.github.io/posts/testing/</guid>
-      <description>testing</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://jaechoidev.github.io/about/</link>
-      <pubDate>Sun, 27 Nov 2022 09:39:00 +0800</pubDate>
-      
-      <guid>http://jaechoidev.github.io/about/</guid>
-      <description>why am I doing this?</description>
-    </item>
-    
+    <lastBuildDate>Sat, 18 Mar 2000 00:00:00 +0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Typography</title>
       <link>http://jaechoidev.github.io/posts/post-5/</link>
