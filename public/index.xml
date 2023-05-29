@@ -7,7 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sat, 18 Mar 2000 00:00:00 +0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 May 2023 01:22:03 -0700</lastBuildDate><atom:link href="http://jaechoidev.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vacation plan</title>
+      <link>http://jaechoidev.github.io/posts/vacation/</link>
+      <pubDate>Mon, 29 May 2023 01:22:03 -0700</pubDate>
+      
+      <guid>http://jaechoidev.github.io/posts/vacation/</guid>
+      <description> going through three raytracing in one weekend series https://raytracing.github.io/ reading cpp books researching npr / collecting project materials clearing up homeworks  </description>
+    </item>
+    
+    <item>
+      <title>05292023 daily</title>
+      <link>http://jaechoidev.github.io/posts/05292023/</link>
+      <pubDate>Mon, 29 May 2023 00:51:19 -0700</pubDate>
+      
+      <guid>http://jaechoidev.github.io/posts/05292023/</guid>
+      <description>Where I&amp;rsquo;m going?
+I actually got questioned by myself this morning. I just noticed a slight health issue (caused by laziness) and lost a bit where I&amp;rsquo;m going.</description>
+    </item>
+    
+    <item>
+      <title>Image processing</title>
+      <link>http://jaechoidev.github.io/posts/image_processing/</link>
+      <pubDate>Mon, 29 May 2023 00:49:39 -0700</pubDate>
+      
+      <guid>http://jaechoidev.github.io/posts/image_processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reviewing OOP</title>
+      <link>http://jaechoidev.github.io/posts/reviewing_oop/</link>
+      <pubDate>Sun, 28 May 2023 03:26:15 -0700</pubDate>
+      
+      <guid>http://jaechoidev.github.io/posts/reviewing_oop/</guid>
+      <description>Reviewing OOP As a self-taught coder, I&amp;rsquo;ve always admired well-written codes. Actually it is hard to have a chance to see such codes at work, but it definitely exists.</description>
+    </item>
+    
     <item>
       <title>Introduction</title>
       <link>http://jaechoidev.github.io/about/</link>
