@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://jaechoidev.github.io/posts/06022023/</loc>
-    <lastmod>2023-06-02T20:23:38-07:00</lastmod>
+    <loc>http://jaechoidev.github.io/posts/review_acrossthespiderverse/</loc>
+    <lastmod>2023-06-03T23:21:34-07:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/</loc>
-    <lastmod>2023-06-02T20:23:38-07:00</lastmod>
+    <lastmod>2023-06-03T23:21:34-07:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/tags/movie/</loc>
+    <lastmod>2023-06-03T23:21:34-07:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/posts/</loc>
-    <lastmod>2023-06-02T20:23:38-07:00</lastmod>
+    <lastmod>2023-06-03T23:21:34-07:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/tags/review/</loc>
+    <lastmod>2023-06-03T23:21:34-07:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/tags/</loc>
+    <lastmod>2023-06-03T23:21:34-07:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/posts/06022023/</loc>
     <lastmod>2023-06-02T20:23:38-07:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/tags/untagged/</loc>
