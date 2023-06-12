@@ -1,6 +1,6 @@
 baseURL = "http://jaechoidev.github.io"
 languageCode = "en-us"
-title = "Better Late Than Never"
+title = "Devlog"
 theme = "ezhil"
 
 copyright = "© Copyright notice"
@@ -23,7 +23,7 @@ summaryLength = 20
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "Software Engineering and Machine Learning in VFX"
+    subtitle = ""
 
     # Content types which are included in home page recent posts list.
     mainSections = ["posts"]

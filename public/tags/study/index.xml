@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>study on Devlog</title>
+    <link>http://jaechoidev.github.io/tags/study/</link>
+    <description>Recent content in study on Devlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Sun, 11 Jun 2023 02:54:05 -0700</lastBuildDate><atom:link href="http://jaechoidev.github.io/tags/study/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>06112023</title>
+      <link>http://jaechoidev.github.io/posts/06112023/</link>
+      <pubDate>Sun, 11 Jun 2023 02:54:05 -0700</pubDate>
+      
+      <guid>http://jaechoidev.github.io/posts/06112023/</guid>
+      <description>[2023] c++ (1/2)
+ https://www.coursera.org/specializations/object-oriented-programming-s12n acc. cpp eff. cpp raytracing in weekends https://raytracing.github.io/ python books  c++ (2/2)
+ stl modern cpp graphics shirley + vulkan https://www.</description>
+    </item>
+    
+  </channel>
+</rss>

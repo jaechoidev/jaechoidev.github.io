@@ -8,9 +8,9 @@ tags: [movie, review]
 ---
 
 good concepts 5/5
-good visual 5/5
-boring direction 2.5/5
-too much fan service 3/5
+good visual 4.5/5
+direction 4/5
+fan service 5/5
 
 overall 4.5/5
 

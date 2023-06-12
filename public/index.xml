@@ -1,20 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Better Late Than Never</title>
+    <title>Devlog</title>
     <link>http://jaechoidev.github.io/</link>
-    <description>Recent content on Better Late Than Never</description>
+    <description>Recent content on Devlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sat, 03 Jun 2023 23:21:34 -0700</lastBuildDate><atom:link href="http://jaechoidev.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 02:54:05 -0700</lastBuildDate><atom:link href="http://jaechoidev.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>06112023</title>
+      <link>http://jaechoidev.github.io/posts/06112023/</link>
+      <pubDate>Sun, 11 Jun 2023 02:54:05 -0700</pubDate>
+      
+      <guid>http://jaechoidev.github.io/posts/06112023/</guid>
+      <description>[2023] c++ (1/2)
+ https://www.coursera.org/specializations/object-oriented-programming-s12n acc. cpp eff. cpp raytracing in weekends https://raytracing.github.io/ python books  c++ (2/2)
+ stl modern cpp graphics shirley + vulkan https://www.</description>
+    </item>
+    
+    <item>
+      <title>06062023</title>
+      <link>http://jaechoidev.github.io/posts/06062023/</link>
+      <pubDate>Tue, 06 Jun 2023 02:20:09 -0700</pubDate>
+      
+      <guid>http://jaechoidev.github.io/posts/06062023/</guid>
+      <description>c++ dsa ios metal (graphics / vision) projects and research (unity)
+how to make money
+job in dev</description>
+    </item>
+    
     <item>
       <title>[review] across the spiderverse</title>
       <link>http://jaechoidev.github.io/posts/review_acrossthespiderverse/</link>
       <pubDate>Sat, 03 Jun 2023 23:21:34 -0700</pubDate>
       
       <guid>http://jaechoidev.github.io/posts/review_acrossthespiderverse/</guid>
-      <description>good concepts 5/5 good visual 5/5 boring direction 2.5/5 too much fan service 3/5
+      <description>good concepts 5/5 good visual 4.5/5 direction 4/5 fan service 5/5
 overall 4.5/5</description>
     </item>
     
