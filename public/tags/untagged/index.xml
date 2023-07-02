@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Fri, 02 Jun 2023 20:23:38 -0700</lastBuildDate><atom:link href="http://jaechoidev.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jul 2023 21:41:05 -0700</lastBuildDate><atom:link href="http://jaechoidev.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mentoring_00</title>
+      <link>http://jaechoidev.github.io/posts/mentoring_00/</link>
+      <pubDate>Sat, 01 Jul 2023 21:41:05 -0700</pubDate>
+      
+      <guid>http://jaechoidev.github.io/posts/mentoring_00/</guid>
+      <description>회사에서 멘토링 프로그램을 제공한다. 회사안에서 커리어 디벨롭을 할 수 있도록 돕는 프로그램인데, 운이 좋게도 다음 프로젝트가 시작되기 전에 비는 시간에 있게 된 Nuke dev 팀의 Principle SE와 매칭이 되었다.</description>
+    </item>
+    
     <item>
       <title>06022023</title>
       <link>http://jaechoidev.github.io/posts/06022023/</link>
