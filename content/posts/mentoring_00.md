@@ -22,3 +22,18 @@ tags:
 - NPR과 관련된 프로젝트를 하고 싶다.
 - ML를 사용한 프로젝트를 하고 싶다.
 
+개인적으로 해야 할 공부와 실제 커리어와 관련된 내용을 분리하고, 프로젝트와 관련된 부분은 멘토링 기간동안에 실행해서 피드백을 받으면서 프로세스를 만들면 좋겠다.
+- 실제 커리어와 관련된 부분
+  - 그래픽스 프로그래밍이 필요한 백엔드 개발 포지션으로 이동하는 계획 : 앞으로 2년 반 정도를 목표로 부족한 부분을 채워나가면서 기회를 만들고 5년후에는 베이로 이주
+  - 회사 안에서 찾을 수 있는 기회가 있는지 확인하고 적절한 시기에 이동할 수 있도록 노력
+- 공부할 내용
+  - 3D : graphics api, pbr, real time rendering, rendering technics
+  - 2D : computational photography, ML/DL, vision
+  - Programming : DSA, OOP, CI/CD, Hardware, Systems
+  - Language : Python, cpp, swift, object-c
+- 프로젝트 후보
+  - NPR
+  - ML for Generative images 
+  - Path-tracing renderer
+  - Realtime engine
+
