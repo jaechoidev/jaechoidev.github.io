@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sun, 10 Sep 2023 14:47:01 -0700</lastBuildDate><atom:link href="http://jaechoidev.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Sep 2023 14:56:49 -0700</lastBuildDate><atom:link href="http://jaechoidev.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>code posting test</title>
+      <link>http://jaechoidev.github.io/posts/code_view/</link>
+      <pubDate>Sun, 10 Sep 2023 14:56:49 -0700</pubDate>
+      
+      <guid>http://jaechoidev.github.io/posts/code_view/</guid>
+      <description># does it work? import hugo from pprint import pprint def test(): return &amp;#34;this works&amp;#34; test() class TestingClass(): def __init__(): pass </description>
+    </item>
+    
     <item>
       <title>swift</title>
       <link>http://jaechoidev.github.io/resources/swift/</link>
