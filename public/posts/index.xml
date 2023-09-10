@@ -17,5 +17,15 @@
       <description># does it work? import hugo from pprint import pprint def test(): return &amp;#34;this works&amp;#34; test() class TestingClass(): def __init__(): pass </description>
     </item>
     
+    <item>
+      <title>markdown posting test</title>
+      <link>http://jaechoidev.github.io/posts/markdown_style_check/</link>
+      <pubDate>Sun, 10 Sep 2023 14:56:49 -0700</pubDate>
+      
+      <guid>http://jaechoidev.github.io/posts/markdown_style_check/</guid>
+      <description>Advertisement :)
+pica - high quality and fast image resize in browser. babelfish - developer friendly i18n with plurals support and easy syntax.</description>
+    </item>
+    
   </channel>
 </rss>
