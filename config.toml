@@ -26,7 +26,7 @@ summaryLength = 20
     subtitle = ""
 
     # Content types which are included in home page recent posts list.
-    mainSections = ["posts"]
+    mainSections = ["posts", "resources"]
 
     # Content types which are excludes Disqus comments.
     disableDisqusTypes = ["page"]
@@ -61,8 +61,8 @@ url = "/about"
 weight = 1
 
 [[menu.main]]
-name = "projects"
-url = "/projects"
+name = "posts"
+url = "/posts"
 weight = 2
 
 [[menu.main]]
