@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sun, 10 Sep 2023 14:56:49 -0700</lastBuildDate><atom:link href="http://jaechoidev.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Sep 2023 14:56:50 -0700</lastBuildDate><atom:link href="http://jaechoidev.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>markdown posting test</title>
+      <link>http://jaechoidev.github.io/posts/markdown_style_check/</link>
+      <pubDate>Sun, 10 Sep 2023 14:56:50 -0700</pubDate>
+      
+      <guid>http://jaechoidev.github.io/posts/markdown_style_check/</guid>
+      <description>Advertisement :)
+pica - high quality and fast image resize in browser. babelfish - developer friendly i18n with plurals support and easy syntax.</description>
+    </item>
+    
     <item>
       <title>code posting test</title>
       <link>http://jaechoidev.github.io/posts/code_view/</link>
@@ -18,13 +28,12 @@
     </item>
     
     <item>
-      <title>markdown posting test</title>
-      <link>http://jaechoidev.github.io/posts/markdown_style_check/</link>
+      <title>노트 정리, 할 일 정리</title>
+      <link>http://jaechoidev.github.io/raws/09102023/</link>
       <pubDate>Sun, 10 Sep 2023 14:56:49 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/posts/markdown_style_check/</guid>
-      <description>Advertisement :)
-pica - high quality and fast image resize in browser. babelfish - developer friendly i18n with plurals support and easy syntax.</description>
+      <guid>http://jaechoidev.github.io/raws/09102023/</guid>
+      <description>하고 싶은 일들에 대해서 생각해보고 있다. 가장 큰 문제는 어쩌면 스스로를 속이는 순간들이 모여 생기는 불편함 아닐까. 나 자신에게 솔직해질 필요가 있다는 생각이 든다.</description>
     </item>
     
     <item>

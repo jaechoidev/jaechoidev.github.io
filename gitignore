@@ -2,3 +2,6 @@
 .hugo_build.lock
 run.sh
 new.sh
+/content/raws/
+.gitignore
+gitignore
