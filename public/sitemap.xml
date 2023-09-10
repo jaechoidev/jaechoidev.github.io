@@ -2,104 +2,101 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://jaechoidev.github.io/posts/07202023/</loc>
-    <lastmod>2023-07-20T23:24:33-07:00</lastmod>
-  </url><url>
     <loc>http://jaechoidev.github.io/</loc>
-    <lastmod>2023-07-20T23:24:33-07:00</lastmod>
+    <lastmod>2023-09-10T14:47:01-07:00</lastmod>
   </url><url>
-    <loc>http://jaechoidev.github.io/posts/</loc>
-    <lastmod>2023-07-20T23:24:33-07:00</lastmod>
+    <loc>http://jaechoidev.github.io/projects/project_template/</loc>
+    <lastmod>2023-09-10T14:47:01-07:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/projects/</loc>
+    <lastmod>2023-09-10T14:47:01-07:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/resources/</loc>
+    <lastmod>2023-09-10T14:47:01-07:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/tags/swift/</loc>
+    <lastmod>2023-09-10T14:47:01-07:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/resources/swift/</loc>
+    <lastmod>2023-09-10T14:47:01-07:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/tags/</loc>
-    <lastmod>2023-07-20T23:24:33-07:00</lastmod>
+    <lastmod>2023-09-10T14:47:01-07:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/tags/untagged/</loc>
+    <lastmod>2023-09-10T14:47:01-07:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/notes/mentoring_03/</loc>
+    <lastmod>2023-09-01T21:41:05-07:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/notes/</loc>
+    <lastmod>2023-09-01T21:41:05-07:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/notes/08102023/</loc>
+    <lastmod>2023-08-10T23:24:33-07:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/notes/mentoring_02/</loc>
+    <lastmod>2023-08-01T21:41:05-07:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/notes/07302023/</loc>
+    <lastmod>2023-07-30T23:24:33-07:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/notes/07202023/</loc>
     <lastmod>2023-07-20T23:24:33-07:00</lastmod>
   </url><url>
-    <loc>http://jaechoidev.github.io/posts/07192023/</loc>
+    <loc>http://jaechoidev.github.io/notes/07192023/</loc>
     <lastmod>2023-07-19T23:24:33-07:00</lastmod>
   </url><url>
-    <loc>http://jaechoidev.github.io/posts/07172023/</loc>
+    <loc>http://jaechoidev.github.io/notes/07172023/</loc>
     <lastmod>2023-07-17T23:24:33-07:00</lastmod>
   </url><url>
-    <loc>http://jaechoidev.github.io/posts/07162023/</loc>
+    <loc>http://jaechoidev.github.io/notes/07162023/</loc>
     <lastmod>2023-07-16T23:24:33-07:00</lastmod>
   </url><url>
-    <loc>http://jaechoidev.github.io/posts/temp/</loc>
-    <lastmod>2023-07-16T14:30:32-07:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/posts/07152023/</loc>
+    <loc>http://jaechoidev.github.io/notes/07152023/</loc>
     <lastmod>2023-07-15T23:24:33-07:00</lastmod>
   </url><url>
-    <loc>http://jaechoidev.github.io/posts/07142023/</loc>
+    <loc>http://jaechoidev.github.io/notes/07142023/</loc>
     <lastmod>2023-07-14T23:24:33-07:00</lastmod>
   </url><url>
-    <loc>http://jaechoidev.github.io/posts/07132023/</loc>
+    <loc>http://jaechoidev.github.io/notes/07132023/</loc>
     <lastmod>2023-07-13T23:24:33-07:00</lastmod>
   </url><url>
-    <loc>http://jaechoidev.github.io/posts/07122023/</loc>
+    <loc>http://jaechoidev.github.io/notes/07122023/</loc>
     <lastmod>2023-07-12T23:04:49-07:00</lastmod>
   </url><url>
-    <loc>http://jaechoidev.github.io/posts/mentoring_00/</loc>
+    <loc>http://jaechoidev.github.io/notes/mentoring_01/</loc>
     <lastmod>2023-07-01T21:41:05-07:00</lastmod>
   </url><url>
-    <loc>http://jaechoidev.github.io/posts/06142023/</loc>
+    <loc>http://jaechoidev.github.io/notes/06142023/</loc>
     <lastmod>2023-06-14T02:54:05-07:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/tags/study/</loc>
     <lastmod>2023-06-14T02:54:05-07:00</lastmod>
   </url><url>
-    <loc>http://jaechoidev.github.io/posts/06112023/</loc>
+    <loc>http://jaechoidev.github.io/notes/06112023/</loc>
     <lastmod>2023-06-11T02:54:05-07:00</lastmod>
   </url><url>
-    <loc>http://jaechoidev.github.io/posts/06062023/</loc>
+    <loc>http://jaechoidev.github.io/notes/06062023/</loc>
     <lastmod>2023-06-06T02:20:09-07:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/tags/plan/</loc>
     <lastmod>2023-06-06T02:20:09-07:00</lastmod>
   </url><url>
-    <loc>http://jaechoidev.github.io/posts/review_acrossthespiderverse/</loc>
-    <lastmod>2023-06-03T23:21:34-07:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/tags/movie/</loc>
-    <lastmod>2023-06-03T23:21:34-07:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/tags/review/</loc>
-    <lastmod>2023-06-03T23:21:34-07:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/posts/06022023/</loc>
+    <loc>http://jaechoidev.github.io/notes/06022023/</loc>
     <lastmod>2023-06-02T20:23:38-07:00</lastmod>
   </url><url>
-    <loc>http://jaechoidev.github.io/posts/05302023/</loc>
+    <loc>http://jaechoidev.github.io/notes/mentoring_00/</loc>
+    <lastmod>2023-06-01T21:41:05-07:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/notes/05302023/</loc>
     <lastmod>2023-05-29T23:22:19-07:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/tags/daily/</loc>
     <lastmod>2023-05-29T23:22:19-07:00</lastmod>
   </url><url>
-    <loc>http://jaechoidev.github.io/posts/05292023/</loc>
+    <loc>http://jaechoidev.github.io/notes/05292023/</loc>
     <lastmod>2023-05-29T00:51:19-07:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/tags/computational_photography/</loc>
-    <lastmod>2023-05-29T00:49:39-07:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/tags/cs/</loc>
-    <lastmod>2023-05-29T00:49:39-07:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/posts/image_processing/</loc>
-    <lastmod>2023-05-29T00:49:39-07:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/tags/image_processing/</loc>
-    <lastmod>2023-05-29T00:49:39-07:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/tags/cpp/</loc>
-    <lastmod>2023-05-28T03:26:15-07:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/tags/oop/</loc>
-    <lastmod>2023-05-28T03:26:15-07:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/posts/reviewing_oop/</loc>
-    <lastmod>2023-05-28T03:26:15-07:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/about/</loc>
     <lastmod>2023-05-27T12:00:00-07:00</lastmod>

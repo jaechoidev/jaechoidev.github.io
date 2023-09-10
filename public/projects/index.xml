@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Devlog</title>
+    <link>http://jaechoidev.github.io/projects/</link>
+    <description>Recent content in Projects on Devlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Sun, 10 Sep 2023 14:47:01 -0700</lastBuildDate><atom:link href="http://jaechoidev.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>project template</title>
+      <link>http://jaechoidev.github.io/projects/project_template/</link>
+      <pubDate>Sun, 10 Sep 2023 14:47:01 -0700</pubDate>
+      
+      <guid>http://jaechoidev.github.io/projects/project_template/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

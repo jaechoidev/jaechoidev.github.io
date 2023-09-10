@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Devlog</title>
-    <link>http://jaechoidev.github.io/</link>
-    <description>Recent content on Devlog</description>
+    <title>Notes on Devlog</title>
+    <link>http://jaechoidev.github.io/notes/</link>
+    <description>Recent content in Notes on Devlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sun, 10 Sep 2023 14:47:01 -0700</lastBuildDate><atom:link href="http://jaechoidev.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>project template</title>
-      <link>http://jaechoidev.github.io/projects/project_template/</link>
-      <pubDate>Sun, 10 Sep 2023 14:47:01 -0700</pubDate>
-      
-      <guid>http://jaechoidev.github.io/projects/project_template/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>swift</title>
-      <link>http://jaechoidev.github.io/resources/swift/</link>
-      <pubDate>Sun, 10 Sep 2023 14:47:01 -0700</pubDate>
-      
-      <guid>http://jaechoidev.github.io/resources/swift/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Fri, 01 Sep 2023 21:41:05 -0700</lastBuildDate><atom:link href="http://jaechoidev.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>mentoring 03</title>
       <link>http://jaechoidev.github.io/notes/mentoring_03/</link>
@@ -216,16 +198,6 @@ job in dev</description>
       <guid>http://jaechoidev.github.io/notes/05292023/</guid>
       <description>Where am I going?
 I questioned to myself this morning. I just got noticed a slight health issue (caused by laziness) and then.</description>
-    </item>
-    
-    <item>
-      <title>Introduction</title>
-      <link>http://jaechoidev.github.io/about/</link>
-      <pubDate>Sat, 27 May 2023 12:00:00 -0700</pubDate>
-      
-      <guid>http://jaechoidev.github.io/about/</guid>
-      <description>Hi, I&amp;rsquo;m Jae.
-I&amp;rsquo;m working as TD at Sony pictures imageworks Vancouver. My resposibilities spans helping lighting and compositing teams by making tools, debugging and troubleshooting issues and optimizing renders and workflows.</description>
     </item>
     
   </channel>
