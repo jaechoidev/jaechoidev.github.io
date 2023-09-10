@@ -1,10 +1,9 @@
 ---
-title: "Temp"
-date: 2023-07-16T14:30:32-07:00
+title: "mentoring 03"
+date: 2023-09-01T21:41:05-07:00
 draft: true
 toc: false
 images:
 tags:
   - untagged
 ---
-
