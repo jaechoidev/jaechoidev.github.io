@@ -7,23 +7,59 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Tue, 05 Dec 2023 01:43:10 -0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Dec 2023 17:43:56 -0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>120820231743 Newpost</title>
+      <link>http://jaechoidev.github.io/raws/120820231743-newpost/</link>
+      <pubDate>Fri, 08 Dec 2023 17:43:56 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/120820231743-newpost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>120820231742 - new start</title>
+      <link>http://jaechoidev.github.io/posts/120820231742-new-start/</link>
+      <pubDate>Fri, 08 Dec 2023 17:42:11 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/posts/120820231742-new-start/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>120820231739 - weather app devlog</title>
+      <link>http://jaechoidev.github.io/notes/120820231739-weather-app/</link>
+      <pubDate>Fri, 08 Dec 2023 17:39:09 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/notes/120820231739-weather-app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EmptyPost</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/emptypost/</link>
+      <pubDate>Fri, 08 Dec 2023 17:31:56 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/emptypost/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>weather app week2</title>
-      <link>http://jaechoidev.github.io/raws/12052023-week2/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/12052023-week2/</link>
       <pubDate>Tue, 05 Dec 2023 01:43:10 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/12052023-week2/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/12052023-week2/</guid>
       <description>weather app in 3week
 fetched current, hourly (96), daily (7) got reference design (https://flutterawesome.com/a-material-design-inspired-weather-app-built-with-flutter/) model definition details design.. firebase, api key handling.</description>
     </item>
     
     <item>
       <title>day1</title>
-      <link>http://jaechoidev.github.io/raws/11292023-week1/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/11292023-week1/</link>
       <pubDate>Wed, 29 Nov 2023 05:20:16 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/11292023-week1/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/11292023-week1/</guid>
       <description>weather app with api fetching
 open weather registration
 api key : 9ee4e7b5135aa448d89286a2a75acbf9
@@ -32,10 +68,10 @@ current https://api.openweathermap.org/data/2.5/weather?lat={lat}&amp;amp;lon={l
     
     <item>
       <title>ios pathway</title>
-      <link>http://jaechoidev.github.io/raws/11242023-ios/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/11242023-ios/</link>
       <pubDate>Fri, 24 Nov 2023 22:39:14 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/11242023-ios/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/11242023-ios/</guid>
       <description>swift language
 ide
 sdk
@@ -50,53 +86,53 @@ dsa, db, os (cs fundamentals)</description>
     
     <item>
       <title>doodle</title>
-      <link>http://jaechoidev.github.io/raws/doodles/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/doodles/</link>
       <pubDate>Thu, 23 Nov 2023 00:10:12 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/doodles/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/doodles/</guid>
       <description>THE BLANK SHOP
 doodler palette blankapps &amp;lt;&amp;gt;theblankapps</description>
     </item>
     
     <item>
       <title>what is alternative of singleton pattern for scalable, testable architecture?</title>
-      <link>http://jaechoidev.github.io/raws/11222023-learning/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/11222023-learning/</link>
       <pubDate>Wed, 22 Nov 2023 22:39:14 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/11222023-learning/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/11222023-learning/</guid>
       <description>The Singleton pattern is often criticized for making code less scalable and testable due to its global state and tight coupling.</description>
     </item>
     
     <item>
       <title>first things first</title>
-      <link>http://jaechoidev.github.io/raws/11212023-firstthingsfirst/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/11212023-firstthingsfirst/</link>
       <pubDate>Tue, 21 Nov 2023 23:54:46 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/11212023-firstthingsfirst/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/11212023-firstthingsfirst/</guid>
       <description>회사는 그래도 중요해. 그만두고 싶을 때 마다 생각하기. 어차피 지금 그만두면 후회할 게 뻔하다.
 개발을 좀 잘하면 좋겠다. ios remote job으로 일단 한번 옮겨야 할 것 같음.</description>
     </item>
     
     <item>
       <title>make it simple</title>
-      <link>http://jaechoidev.github.io/raws/11202023-makeitsimple/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/11202023-makeitsimple/</link>
       <pubDate>Mon, 20 Nov 2023 23:20:02 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/11202023-makeitsimple/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/11202023-makeitsimple/</guid>
       <description>이런저런 계획을 많이도 세웠다가 실패했다가.. 했다. 이제 2024년, 그러니까 원래 나이라면 40살이 된다. 없어진 한국나이로. 앞으로 10년을 어떻게 보낼까 생각해보다가, 지금까지 하지 않았던 것들을 하기로 결정했다.</description>
     </item>
     
     <item>
       <title>projects..</title>
-      <link>http://jaechoidev.github.io/raws/ios_topics/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/ios_topics/</link>
       <pubDate>Mon, 20 Nov 2023 22:57:03 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/ios_topics/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/ios_topics/</guid>
       <description>Views SwiftUI modifiers UIKit Network Calling : URLSession Firebase (database, authentication, logs etc) Data Persistence: UserDefaults CoreData(swiftdata) FileManager NSCache KeyChain CloudKit MultiThreading: DispatchQueue GrandCentralDispatch Async-Await OperationQueues swift concurrency Architecture and ios(swift) characteristics: MVVM Automatic Reference Counting (ARC?</description>
     </item>
     
     <item>
-      <title>markdown posting test</title>
+      <title>[draft] markdown posting test</title>
       <link>http://jaechoidev.github.io/posts/markdown_style_check/</link>
       <pubDate>Sun, 10 Sep 2023 14:56:50 -0700</pubDate>
       
@@ -106,7 +142,7 @@ pica - high quality and fast image resize in browser. babelfish - developer frie
     </item>
     
     <item>
-      <title>code posting test</title>
+      <title>[draft] code posting test</title>
       <link>http://jaechoidev.github.io/posts/code_view/</link>
       <pubDate>Sun, 10 Sep 2023 14:56:49 -0700</pubDate>
       
@@ -115,7 +151,7 @@ pica - high quality and fast image resize in browser. babelfish - developer frie
     </item>
     
     <item>
-      <title>swift</title>
+      <title>swift snippets</title>
       <link>http://jaechoidev.github.io/resources/swift/</link>
       <pubDate>Sun, 10 Sep 2023 14:47:01 -0700</pubDate>
       
@@ -125,46 +161,46 @@ pica - high quality and fast image resize in browser. babelfish - developer frie
     
     <item>
       <title>mentoring 03</title>
-      <link>http://jaechoidev.github.io/raws/mentoring_03/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/mentoring_03/</link>
       <pubDate>Fri, 01 Sep 2023 21:41:05 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/mentoring_03/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/mentoring_03/</guid>
       <description></description>
     </item>
     
     <item>
       <title>08102023</title>
-      <link>http://jaechoidev.github.io/raws/08102023/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/08102023/</link>
       <pubDate>Thu, 10 Aug 2023 23:24:33 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/08102023/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/08102023/</guid>
       <description>38살이 되었다. 캐나다 오고나서는 이렇다할 감흥이 있는 날은 아니지만, 여전히 약간의 후회와 약간의 안도를 하고 있다. 어쨋든 아주 좋지 않았던 시기는 지나갔다는 안도와, 어떻게해도 그 좋지 않았던 시기가 개선될 수는 없다는, 시간의 불가역성 때문에 떨칠 수 없는 후회.</description>
     </item>
     
     <item>
       <title>mentoring 02</title>
-      <link>http://jaechoidev.github.io/raws/mentoring_02/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/mentoring_02/</link>
       <pubDate>Tue, 01 Aug 2023 21:41:05 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/mentoring_02/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/mentoring_02/</guid>
       <description></description>
     </item>
     
     <item>
       <title>07302023</title>
-      <link>http://jaechoidev.github.io/raws/07302023/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/07302023/</link>
       <pubDate>Sun, 30 Jul 2023 23:24:33 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/07302023/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/07302023/</guid>
       <description>2028.10, 캐나다 온지 10년 되는 날. 아마 그때는 다음 기회가 있지 않을까. 그때까지 해야 할 일들이 뭐가 있을까.</description>
     </item>
     
     <item>
       <title>07202023</title>
-      <link>http://jaechoidev.github.io/raws/07202023/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/07202023/</link>
       <pubDate>Thu, 20 Jul 2023 23:24:33 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/07202023/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/07202023/</guid>
       <description>인상적이었던 것 회사 파일시스템 docs를 읽고 감명받음.
 한 것 / 생각한 것 학교를 가야되나 또 생각함.ㅎ 끝나지 않는군
 배운 것 qt설치가 진짜 오래 걸리네.</description>
@@ -172,96 +208,96 @@ pica - high quality and fast image resize in browser. babelfish - developer frie
     
     <item>
       <title>07192023</title>
-      <link>http://jaechoidev.github.io/raws/07192023/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/07192023/</link>
       <pubDate>Wed, 19 Jul 2023 23:24:33 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/07192023/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/07192023/</guid>
       <description>인상적이었던 것 오늘 같은 팀 사람이 사이드로 하고 있는 opengl 프로젝트를 보고 인상적이라고 생각했다.
 한 것 / 생각한 것 공부도 하긴 해야하는 상황이지만, 프로젝트에 비중을 더 두고 문제를 해결해나가는 과정을 경험하는게 중요하다고 생각했다.</description>
     </item>
     
     <item>
       <title>07172023</title>
-      <link>http://jaechoidev.github.io/raws/07172023/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/07172023/</link>
       <pubDate>Mon, 17 Jul 2023 23:24:33 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/07172023/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/07172023/</guid>
       <description>인상적이었던 것 회사에서 새로운 시스템을 도입하는데 예전부터 생각하던 아쉬운 부분이 개선될 것 같아서 기대. 하지만 또 문제가 많고 내가 할일도 많아지겠지.</description>
     </item>
     
     <item>
       <title>07162023</title>
-      <link>http://jaechoidev.github.io/raws/07162023/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/07162023/</link>
       <pubDate>Sun, 16 Jul 2023 23:24:33 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/07162023/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/07162023/</guid>
       <description>인상적이었던 것 스탠리파크 동쪽이 생각보다 괜찮았다.
 한 것 / 생각한 것 학점인정 신청함. 그래서 나는 학교를 또 가는걸까 마는걸까. 누군가의 결정에 의해서 내 앞길을 정하는게 아니라 스스로 결정하고 행동할 수 있었으면 좋겠는데.</description>
     </item>
     
     <item>
       <title>07152023</title>
-      <link>http://jaechoidev.github.io/raws/07152023/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/07152023/</link>
       <pubDate>Sat, 15 Jul 2023 23:24:33 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/07152023/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/07152023/</guid>
       <description>인상적이었던 것 오늘 멍때려서 별게 없다.. 프로젝트 고민 중.
 한 것 / 생각한 것 오늘은 산책. 캐나다 와서 좋은 건 어딜가도 최소 운동장만한 잔디밭 하나 정도는 동네에 있다.</description>
     </item>
     
     <item>
       <title>07142023</title>
-      <link>http://jaechoidev.github.io/raws/07142023/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/07142023/</link>
       <pubDate>Fri, 14 Jul 2023 23:24:33 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/07142023/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/07142023/</guid>
       <description>인상적이었던 것 https://moforgeries.org/ mschf 라는 프로젝트 그룹에서 한 작업. 예전에 좋아했던 스타일. 조승연씨가 나오는 유투브에서, 우리가 어떤 문화를 좋아할 때 그게 과거의 어떤 시대의 그 곳인 경우가 있다는 얘기를 한 적이 있는데, 그 말이 지금 왜 생각나는지는 잘 모르겠다.</description>
     </item>
     
     <item>
       <title>07132023</title>
-      <link>http://jaechoidev.github.io/raws/07132023/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/07132023/</link>
       <pubDate>Thu, 13 Jul 2023 23:24:33 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/07132023/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/07132023/</guid>
       <description>인상적이었던 것 닥터프렌즈에서 육아와 관련된 상담내용을 봤다. 요즘 &amp;lsquo;문제행동&amp;rsquo;에 대한 영상들이 많은데, 좋은 육아에 대해서 볼 수 있어서 좋았다.</description>
     </item>
     
     <item>
       <title>07122023</title>
-      <link>http://jaechoidev.github.io/raws/07122023/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/07122023/</link>
       <pubDate>Wed, 12 Jul 2023 23:04:49 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/07122023/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/07122023/</guid>
       <description>일기를 써볼까 한다. 왠지 기록이 필요해지는 시기가 다가오는 것 같다. 세가지 정도를 써보려고 한다.
 인상적이었던 것 오늘 좋았던 건 뉴진스 새 앨범 컨셉.</description>
     </item>
     
     <item>
       <title>mentoring 01</title>
-      <link>http://jaechoidev.github.io/raws/mentoring_01/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/mentoring_01/</link>
       <pubDate>Sat, 01 Jul 2023 21:41:05 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/mentoring_01/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/mentoring_01/</guid>
       <description>그러니까 중요한건 문제를 푸는거지, 뭔가를 배우는게 아니야. 그렇지만 나는 아직 아는게 없으니까 배우기도 해야돼. 하지만 배우기만 하면 안돼.
 Learn OpenGL, graphics programming, shaders, PBR</description>
     </item>
     
     <item>
       <title>06142023</title>
-      <link>http://jaechoidev.github.io/raws/06142023/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/06142023/</link>
       <pubDate>Wed, 14 Jun 2023 02:54:05 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/06142023/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/06142023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>06112023</title>
-      <link>http://jaechoidev.github.io/raws/06112023/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/06112023/</link>
       <pubDate>Sun, 11 Jun 2023 02:54:05 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/06112023/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/06112023/</guid>
       <description>[2023] c++ (1/2)
 https://www.coursera.org/specializations/object-oriented-programming-s12n acc. cpp eff. cpp raytracing in weekends https://raytracing.github.io/ python books c++ (2/2)
 stl modern cpp graphics shirley + vulkan https://www.</description>
@@ -269,10 +305,10 @@ stl modern cpp graphics shirley + vulkan https://www.</description>
     
     <item>
       <title>06062023</title>
-      <link>http://jaechoidev.github.io/raws/06062023/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/06062023/</link>
       <pubDate>Tue, 06 Jun 2023 02:20:09 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/06062023/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/06062023/</guid>
       <description>c++ dsa ios metal (graphics / vision) projects and research (unity)
 how to make money
 job in dev</description>
@@ -280,37 +316,37 @@ job in dev</description>
     
     <item>
       <title>06022023</title>
-      <link>http://jaechoidev.github.io/raws/06022023/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/06022023/</link>
       <pubDate>Fri, 02 Jun 2023 20:23:38 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/06022023/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/06022023/</guid>
       <description>I have worked for last 2 weeks in comp dev and resolved 2 tickets. I was wondering how it will feel like in here, but important point is whether I enjoy doing this, but I&amp;rsquo;m not sure yet.</description>
     </item>
     
     <item>
       <title>mentoring 00</title>
-      <link>http://jaechoidev.github.io/raws/mentoring_00/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/mentoring_00/</link>
       <pubDate>Thu, 01 Jun 2023 21:41:05 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/mentoring_00/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/mentoring_00/</guid>
       <description>회사에서 멘토링 프로그램을 제공한다. 회사안에서 커리어 디벨롭을 할 수 있도록 돕는 프로그램인데, 운이 좋게도 다음 프로젝트가 시작되기 전에 비는 시간에 있게 된 Nuke dev 팀의 Principle SE와 매칭이 되었다.</description>
     </item>
     
     <item>
       <title>05302023 daily</title>
-      <link>http://jaechoidev.github.io/raws/05302023/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/05302023/</link>
       <pubDate>Mon, 29 May 2023 23:22:19 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/05302023/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/05302023/</guid>
       <description>mostly calm and easy day. We got Canadian citizenship test schedule on June. It feels very fast process, also time is going faster.</description>
     </item>
     
     <item>
       <title>05292023 daily</title>
-      <link>http://jaechoidev.github.io/raws/05292023/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/05292023/</link>
       <pubDate>Mon, 29 May 2023 00:51:19 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/05292023/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/05292023/</guid>
       <description>Where am I going?
 I questioned to myself this morning. I just got noticed a slight health issue (caused by laziness) and then.</description>
     </item>
