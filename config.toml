@@ -26,7 +26,7 @@ summaryLength = 20
     subtitle = ""
 
     # Content types which are included in home page recent posts list.
-    mainSections = ["posts", "resources"]
+    mainSections = ["posts", "notes"]
 
     # Content types which are excludes Disqus comments.
     disableDisqusTypes = ["page"]
