@@ -7,33 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Fri, 08 Dec 2023 17:42:11 -0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Dec 2023 17:39:09 -0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>120820231742 - new start</title>
-      <link>http://jaechoidev.github.io/posts/120820231742-new-start/</link>
-      <pubDate>Fri, 08 Dec 2023 17:42:11 -0800</pubDate>
+      <title>120820231739 - weather app</title>
+      <link>http://jaechoidev.github.io/posts/120820231739-weather-app/</link>
+      <pubDate>Fri, 08 Dec 2023 17:39:09 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/posts/120820231742-new-start/</guid>
-      <description>2023 is almost over. Lots of things happened during this year, and.. I guess I&amp;rsquo;m finally going forward. I felt a bit stuck last year and before.</description>
-    </item>
-    
-    <item>
-      <title>[draft] markdown posting test</title>
-      <link>http://jaechoidev.github.io/posts/markdown_style_check/</link>
-      <pubDate>Sun, 10 Sep 2023 14:56:50 -0700</pubDate>
-      
-      <guid>http://jaechoidev.github.io/posts/markdown_style_check/</guid>
-      <description>Advertisement :)
-pica - high quality and fast image resize in browser. babelfish - developer friendly i18n with plurals support and easy syntax.</description>
-    </item>
-    
-    <item>
-      <title>[draft] code posting test</title>
-      <link>http://jaechoidev.github.io/posts/code_view/</link>
-      <pubDate>Sun, 10 Sep 2023 14:56:49 -0700</pubDate>
-      
-      <guid>http://jaechoidev.github.io/posts/code_view/</guid>
-      <description># does it work? import hugo from pprint import pprint def test(): return &amp;#34;this works&amp;#34; test() class TestingClass(): def __init__(): pass </description>
+      <guid>http://jaechoidev.github.io/posts/120820231739-weather-app/</guid>
+      <description>01.01, 2024 On hold.. testing some other features recently, like timer, notification, etc.
+12.08, 2023 I&amp;rsquo;m making a weather app.</description>
     </item>
     
   </channel>

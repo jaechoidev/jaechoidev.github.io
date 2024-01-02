@@ -7,15 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Fri, 08 Dec 2023 17:39:09 -0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jan 2024 15:01:17 -0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>120820231739 - weather app devlog</title>
-      <link>http://jaechoidev.github.io/notes/120820231739-weather-app/</link>
-      <pubDate>Fri, 08 Dec 2023 17:39:09 -0800</pubDate>
+      <title>Killers of the Flower Moon</title>
+      <link>http://jaechoidev.github.io/notes/010120241501-moviereview/</link>
+      <pubDate>Mon, 01 Jan 2024 15:01:17 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/notes/120820231739-weather-app/</guid>
-      <description>I&amp;rsquo;m making a weather app.
-reference design : https://flutterawesome.com/a-material-design-inspired-weather-app-built-with-flutter/ </description>
+      <guid>http://jaechoidev.github.io/notes/010120241501-moviereview/</guid>
+      <description>The most important thing to pay attention to in this movie is the other side of the dialogue and the emotions expressed by the characters.</description>
+    </item>
+    
+    <item>
+      <title>2024, new years resolutions</title>
+      <link>http://jaechoidev.github.io/notes/010120241455-newyear/</link>
+      <pubDate>Mon, 01 Jan 2024 14:55:41 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/notes/010120241455-newyear/</guid>
+      <description>This is a list in my (new) tracker app.
+write anything in the morning (prob like this in blog, to see my progresses) walk or cycle 45min / check weight / drink water 3L (take care of health) learning 1h (mostly for side projects) side project 3h (at least.</description>
+    </item>
+    
+    <item>
+      <title>121520230831 product ideas</title>
+      <link>http://jaechoidev.github.io/notes/121520230831-productideas/</link>
+      <pubDate>Fri, 15 Dec 2023 08:31:38 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/notes/121520230831-productideas/</guid>
+      <description>video to blogpost
+speech to text video to images UI timeframes html export plugins kanban todos
+ubc water fountain</description>
     </item>
     
   </channel>

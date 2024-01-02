@@ -2,31 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://jaechoidev.github.io/</loc>
+    <lastmod>2024-01-01T15:01:17-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/notes/010120241501-moviereview/</loc>
+    <lastmod>2024-01-01T15:01:17-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/notes/</loc>
+    <lastmod>2024-01-01T15:01:17-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/tags/</loc>
+    <lastmod>2024-01-01T15:01:17-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/tags/untagged/</loc>
+    <lastmod>2024-01-01T15:01:17-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/notes/010120241455-newyear/</loc>
+    <lastmod>2024-01-01T14:55:41-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/notes/121520230831-productideas/</loc>
+    <lastmod>2023-12-15T08:31:38-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/raws/121420230744-udemy_ios/</loc>
+    <lastmod>2023-12-14T07:44:05-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/raws/</loc>
+    <lastmod>2023-12-14T07:44:05-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/raws/121020231443-someplans/</loc>
+    <lastmod>2023-12-10T14:43:34-08:00</lastmod>
+  </url><url>
     <loc>http://jaechoidev.github.io/raws/120820231743-newpost/</loc>
     <lastmod>2023-12-08T17:43:56-08:00</lastmod>
   </url><url>
-    <loc>http://jaechoidev.github.io/</loc>
-    <lastmod>2023-12-08T17:43:56-08:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/raws/</loc>
-    <lastmod>2023-12-08T17:43:56-08:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/tags/</loc>
-    <lastmod>2023-12-08T17:43:56-08:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/tags/untagged/</loc>
-    <lastmod>2023-12-08T17:43:56-08:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/posts/120820231742-new-start/</loc>
-    <lastmod>2023-12-08T17:42:11-08:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/posts/</loc>
-    <lastmod>2023-12-08T17:42:11-08:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/notes/120820231739-weather-app/</loc>
+    <loc>http://jaechoidev.github.io/posts/120820231739-weather-app/</loc>
     <lastmod>2023-12-08T17:39:09-08:00</lastmod>
   </url><url>
-    <loc>http://jaechoidev.github.io/notes/</loc>
+    <loc>http://jaechoidev.github.io/posts/</loc>
     <lastmod>2023-12-08T17:39:09-08:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/raws/z_archive/emptypost/</loc>
@@ -55,12 +67,6 @@
   </url><url>
     <loc>http://jaechoidev.github.io/raws/z_archive/ios_topics/</loc>
     <lastmod>2023-11-20T22:57:03-08:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/posts/markdown_style_check/</loc>
-    <lastmod>2023-09-10T14:56:50-07:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/posts/code_view/</loc>
-    <lastmod>2023-09-10T14:56:49-07:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/resources/</loc>
     <lastmod>2023-09-10T14:47:01-07:00</lastmod>

@@ -7,3 +7,9 @@ images:
 tags:
   - swift
 ---
+
+- xcode shortcuts
+  https://swifteducation.github.io/assets/pdfs/XcodeKeyboardShortcuts.pdf
+- xcode themes
+  https://github.com/hdoria/xcode-themes
+-

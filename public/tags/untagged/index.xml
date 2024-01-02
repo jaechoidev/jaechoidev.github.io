@@ -7,7 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Fri, 08 Dec 2023 17:43:56 -0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jan 2024 15:01:17 -0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Killers of the Flower Moon</title>
+      <link>http://jaechoidev.github.io/notes/010120241501-moviereview/</link>
+      <pubDate>Mon, 01 Jan 2024 15:01:17 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/notes/010120241501-moviereview/</guid>
+      <description>The most important thing to pay attention to in this movie is the other side of the dialogue and the emotions expressed by the characters.</description>
+    </item>
+    
+    <item>
+      <title>2024, new years resolutions</title>
+      <link>http://jaechoidev.github.io/notes/010120241455-newyear/</link>
+      <pubDate>Mon, 01 Jan 2024 14:55:41 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/notes/010120241455-newyear/</guid>
+      <description>This is a list in my (new) tracker app.
+write anything in the morning (prob like this in blog, to see my progresses) walk or cycle 45min / check weight / drink water 3L (take care of health) learning 1h (mostly for side projects) side project 3h (at least.</description>
+    </item>
+    
+    <item>
+      <title>121520230831 product ideas</title>
+      <link>http://jaechoidev.github.io/notes/121520230831-productideas/</link>
+      <pubDate>Fri, 15 Dec 2023 08:31:38 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/notes/121520230831-productideas/</guid>
+      <description>video to blogpost
+speech to text video to images UI timeframes html export plugins kanban todos
+ubc water fountain</description>
+    </item>
+    
+    <item>
+      <title>121420230744 ios-udemy</title>
+      <link>http://jaechoidev.github.io/raws/121420230744-udemy_ios/</link>
+      <pubDate>Thu, 14 Dec 2023 07:44:05 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/121420230744-udemy_ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>121020231443 some plans</title>
+      <link>http://jaechoidev.github.io/raws/121020231443-someplans/</link>
+      <pubDate>Sun, 10 Dec 2023 14:43:34 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/121020231443-someplans/</guid>
+      <description>wake up at 4am (sleep at 9) walk 40min 5:30 am to 8:30 am bootstrapping work better lose weight.. so what&amp;rsquo;s your plan?</description>
+    </item>
+    
     <item>
       <title>120820231743 Newpost</title>
       <link>http://jaechoidev.github.io/raws/120820231743-newpost/</link>
@@ -18,22 +66,13 @@
     </item>
     
     <item>
-      <title>120820231742 - new start</title>
-      <link>http://jaechoidev.github.io/posts/120820231742-new-start/</link>
-      <pubDate>Fri, 08 Dec 2023 17:42:11 -0800</pubDate>
-      
-      <guid>http://jaechoidev.github.io/posts/120820231742-new-start/</guid>
-      <description>2023 is almost over. Lots of things happened during this year, and.. I guess I&amp;rsquo;m finally going forward. I felt a bit stuck last year and before.</description>
-    </item>
-    
-    <item>
-      <title>120820231739 - weather app devlog</title>
-      <link>http://jaechoidev.github.io/notes/120820231739-weather-app/</link>
+      <title>120820231739 - weather app</title>
+      <link>http://jaechoidev.github.io/posts/120820231739-weather-app/</link>
       <pubDate>Fri, 08 Dec 2023 17:39:09 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/notes/120820231739-weather-app/</guid>
-      <description>I&amp;rsquo;m making a weather app.
-reference design : https://flutterawesome.com/a-material-design-inspired-weather-app-built-with-flutter/ </description>
+      <guid>http://jaechoidev.github.io/posts/120820231739-weather-app/</guid>
+      <description>01.01, 2024 On hold.. testing some other features recently, like timer, notification, etc.
+12.08, 2023 I&amp;rsquo;m making a weather app.</description>
     </item>
     
     <item>
@@ -130,25 +169,6 @@ doodler palette blankapps &amp;lt;&amp;gt;theblankapps</description>
       
       <guid>http://jaechoidev.github.io/raws/z_archive/ios_topics/</guid>
       <description>Views SwiftUI modifiers UIKit Network Calling : URLSession Firebase (database, authentication, logs etc) Data Persistence: UserDefaults CoreData(swiftdata) FileManager NSCache KeyChain CloudKit MultiThreading: DispatchQueue GrandCentralDispatch Async-Await OperationQueues swift concurrency Architecture and ios(swift) characteristics: MVVM Automatic Reference Counting (ARC?</description>
-    </item>
-    
-    <item>
-      <title>[draft] markdown posting test</title>
-      <link>http://jaechoidev.github.io/posts/markdown_style_check/</link>
-      <pubDate>Sun, 10 Sep 2023 14:56:50 -0700</pubDate>
-      
-      <guid>http://jaechoidev.github.io/posts/markdown_style_check/</guid>
-      <description>Advertisement :)
-pica - high quality and fast image resize in browser. babelfish - developer friendly i18n with plurals support and easy syntax.</description>
-    </item>
-    
-    <item>
-      <title>[draft] code posting test</title>
-      <link>http://jaechoidev.github.io/posts/code_view/</link>
-      <pubDate>Sun, 10 Sep 2023 14:56:49 -0700</pubDate>
-      
-      <guid>http://jaechoidev.github.io/posts/code_view/</guid>
-      <description># does it work? import hugo from pprint import pprint def test(): return &amp;#34;this works&amp;#34; test() class TestingClass(): def __init__(): pass </description>
     </item>
     
     <item>
