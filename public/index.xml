@@ -7,7 +7,59 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Mon, 01 Jan 2024 15:01:17 -0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Jan 2024 08:16:40 -0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>011620240816 시대예보-핵개인의 시대</title>
+      <link>http://jaechoidev.github.io/notes/011620240816-reading/</link>
+      <pubDate>Tue, 16 Jan 2024 08:16:40 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/notes/011620240816-reading/</guid>
+      <description>우리는 모두 쪼개지고 흩어지고 홀로 서게 된다. 디지털 도구와 인공지능 시스템의 도래, 얼마나 더 길어질지 모르는 생애주기, 조직과 가족이라는 테두리의 무너짐, 권위주의의 몰락과 기득권의 와해,</description>
+    </item>
+    
+    <item>
+      <title>011120240321 Newpost</title>
+      <link>http://jaechoidev.github.io/raws/011120240321-newpost/</link>
+      <pubDate>Thu, 11 Jan 2024 03:21:59 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/011120240321-newpost/</guid>
+      <description>Source : https://www.google.com/maps/d/viewer?ll=49.261852000000005%2C-123.24826300000001&amp;amp;spn=0.014028%2C0.038066&amp;amp;msa=0&amp;amp;iwloc=0004d8b88fe8029eba263&amp;amp;mid=1fmvuTk4654NGRwoIon6yadBx_LY&amp;amp;z=15
+Contribution : login
+Support developer : -_-
+The dark blue placemarks represent water fountains.
+The light blue placemarks represent Water Fillz stations or Brita Hydration Stations.</description>
+    </item>
+    
+    <item>
+      <title>010920240454 monthly </title>
+      <link>http://jaechoidev.github.io/notes/010920240454-monthly/</link>
+      <pubDate>Tue, 09 Jan 2024 04:54:50 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/notes/010920240454-monthly/</guid>
+      <description>Monthly goals
+3 months Jan - Mar goal : First Product on app store
+swift concurrency 19 (8) swiftui advanced 34 (1) swiftui continued learning review 34 (1) swiftui metal 18 (1) ios academy tutorials kodeco.</description>
+    </item>
+    
+    <item>
+      <title>stick to it</title>
+      <link>http://jaechoidev.github.io/notes/010320240840-sticktoit/</link>
+      <pubDate>Wed, 03 Jan 2024 08:40:28 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/notes/010320240840-sticktoit/</guid>
+      <description>오늘은 3일. 작심삼일 이라는 말이 생각나는 날. 아주 타이트하게 계획을 실행하고 있는 건 아니지만, 그래도 조금씩 계속 진행하려고 하고 있다.</description>
+    </item>
+    
+    <item>
+      <title>[swift] map, flatmap, compactmap and filter</title>
+      <link>http://jaechoidev.github.io/resources/010220240027-swift/</link>
+      <pubDate>Tue, 02 Jan 2024 00:27:39 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/resources/010220240027-swift/</guid>
+      <description>https://www.swiftbysundell.com/basics/map-flatmap-and-compactmap/
+Array.filter { $0.starts(with: &amp;ldquo;#&amp;rdquo;) } : filters elements which starts with &amp;ldquo;#&amp;rdquo; Array.map { $0.lowercased() } : apply lowercased() to all elements in the array Array.</description>
+    </item>
+    
     <item>
       <title>Killers of the Flower Moon</title>
       <link>http://jaechoidev.github.io/notes/010120241501-moviereview/</link>

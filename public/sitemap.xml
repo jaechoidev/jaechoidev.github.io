@@ -2,19 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://jaechoidev.github.io/</loc>
-    <lastmod>2024-01-01T15:01:17-08:00</lastmod>
+    <loc>http://jaechoidev.github.io/notes/011620240816-reading/</loc>
+    <lastmod>2024-01-16T08:16:40-08:00</lastmod>
   </url><url>
-    <loc>http://jaechoidev.github.io/notes/010120241501-moviereview/</loc>
-    <lastmod>2024-01-01T15:01:17-08:00</lastmod>
+    <loc>http://jaechoidev.github.io/</loc>
+    <lastmod>2024-01-16T08:16:40-08:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/notes/</loc>
-    <lastmod>2024-01-01T15:01:17-08:00</lastmod>
+    <lastmod>2024-01-16T08:16:40-08:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/tags/</loc>
-    <lastmod>2024-01-01T15:01:17-08:00</lastmod>
+    <lastmod>2024-01-16T08:16:40-08:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/tags/untagged/</loc>
+    <lastmod>2024-01-16T08:16:40-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/raws/011120240321-newpost/</loc>
+    <lastmod>2024-01-11T03:21:59-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/raws/</loc>
+    <lastmod>2024-01-11T03:21:59-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/notes/010920240454-monthly/</loc>
+    <lastmod>2024-01-09T04:54:50-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/notes/010320240840-sticktoit/</loc>
+    <lastmod>2024-01-03T08:40:28-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/resources/010220240027-swift/</loc>
+    <lastmod>2024-01-02T00:27:39-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/resources/</loc>
+    <lastmod>2024-01-02T00:27:39-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/notes/010120241501-moviereview/</loc>
     <lastmod>2024-01-01T15:01:17-08:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/notes/010120241455-newyear/</loc>
@@ -24,9 +45,6 @@
     <lastmod>2023-12-15T08:31:38-08:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/raws/121420230744-udemy_ios/</loc>
-    <lastmod>2023-12-14T07:44:05-08:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/raws/</loc>
     <lastmod>2023-12-14T07:44:05-08:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/raws/121020231443-someplans/</loc>
@@ -67,9 +85,6 @@
   </url><url>
     <loc>http://jaechoidev.github.io/raws/z_archive/ios_topics/</loc>
     <lastmod>2023-11-20T22:57:03-08:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/resources/</loc>
-    <lastmod>2023-09-10T14:47:01-07:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/tags/swift/</loc>
     <lastmod>2023-09-10T14:47:01-07:00</lastmod>

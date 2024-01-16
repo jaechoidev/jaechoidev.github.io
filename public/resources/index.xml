@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sun, 10 Sep 2023 14:47:01 -0700</lastBuildDate><atom:link href="http://jaechoidev.github.io/resources/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jan 2024 00:27:39 -0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[swift] map, flatmap, compactmap and filter</title>
+      <link>http://jaechoidev.github.io/resources/010220240027-swift/</link>
+      <pubDate>Tue, 02 Jan 2024 00:27:39 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/resources/010220240027-swift/</guid>
+      <description>https://www.swiftbysundell.com/basics/map-flatmap-and-compactmap/
+Array.filter { $0.starts(with: &amp;ldquo;#&amp;rdquo;) } : filters elements which starts with &amp;ldquo;#&amp;rdquo; Array.map { $0.lowercased() } : apply lowercased() to all elements in the array Array.</description>
+    </item>
+    
     <item>
       <title>swift snippets</title>
       <link>http://jaechoidev.github.io/resources/swift/</link>
