@@ -2,25 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://jaechoidev.github.io/</loc>
+    <lastmod>2024-01-21T14:31:28-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/notes/012120241431-hidden/</loc>
+    <lastmod>2024-01-21T14:31:28-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/notes/</loc>
+    <lastmod>2024-01-21T14:31:28-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/tags/</loc>
+    <lastmod>2024-01-21T14:31:28-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/tags/untagged/</loc>
+    <lastmod>2024-01-21T14:31:28-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/raws/011620241635-newpost/</loc>
+    <lastmod>2024-01-16T16:35:51-08:00</lastmod>
+  </url><url>
+    <loc>http://jaechoidev.github.io/raws/</loc>
+    <lastmod>2024-01-16T16:35:51-08:00</lastmod>
+  </url><url>
     <loc>http://jaechoidev.github.io/notes/011620240816-reading/</loc>
     <lastmod>2024-01-16T08:16:40-08:00</lastmod>
   </url><url>
-    <loc>http://jaechoidev.github.io/</loc>
-    <lastmod>2024-01-16T08:16:40-08:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/notes/</loc>
-    <lastmod>2024-01-16T08:16:40-08:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/tags/</loc>
-    <lastmod>2024-01-16T08:16:40-08:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/tags/untagged/</loc>
-    <lastmod>2024-01-16T08:16:40-08:00</lastmod>
-  </url><url>
     <loc>http://jaechoidev.github.io/raws/011120240321-newpost/</loc>
-    <lastmod>2024-01-11T03:21:59-08:00</lastmod>
-  </url><url>
-    <loc>http://jaechoidev.github.io/raws/</loc>
     <lastmod>2024-01-11T03:21:59-08:00</lastmod>
   </url><url>
     <loc>http://jaechoidev.github.io/notes/010920240454-monthly/</loc>

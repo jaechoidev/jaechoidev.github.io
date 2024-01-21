@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Tue, 16 Jan 2024 08:16:40 -0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Jan 2024 14:31:28 -0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hidden world</title>
+      <link>http://jaechoidev.github.io/notes/012120241431-hidden/</link>
+      <pubDate>Sun, 21 Jan 2024 14:31:28 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/notes/012120241431-hidden/</guid>
+      <description>this is erroring because of @Published.
+class Test : ObservableObject { @Published var cubes: [String] @Published var planes: [String] init() { self.</description>
+    </item>
+    
     <item>
       <title>011620240816 시대예보-핵개인의 시대</title>
       <link>http://jaechoidev.github.io/notes/011620240816-reading/</link>
