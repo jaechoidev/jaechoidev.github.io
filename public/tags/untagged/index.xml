@@ -7,41 +7,324 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sun, 21 Jan 2024 14:31:28 -0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Feb 2024 17:51:20 -0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>022320241751 temporary layoff</title>
+      <link>http://jaechoidev.github.io/post/022320241751-newpost/</link>
+      <pubDate>Fri, 23 Feb 2024 17:51:20 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/post/022320241751-newpost/</guid>
+      <description>~ June 9</description>
+    </item>
+    
+    <item>
+      <title>022320241750 Newpost</title>
+      <link>http://jaechoidev.github.io/raws/022320241750-newpost/</link>
+      <pubDate>Fri, 23 Feb 2024 17:50:37 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/022320241750-newpost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>022220241959 Newpost</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/022220241959-day010/</link>
+      <pubDate>Thu, 22 Feb 2024 19:59:16 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/022220241959-day010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>day009</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/022120242014-day009/</link>
+      <pubDate>Wed, 21 Feb 2024 20:14:53 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/022120242014-day009/</guid>
+      <description>acc cpp : reading.. ch4
+6.042J (8/25 lectures): Graph theory II : minimum spanning trees
+walk : A walk is a sequence of vertices connected by edges.</description>
+    </item>
+    
+    <item>
+      <title>day008</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/022020241240-day008/</link>
+      <pubDate>Tue, 20 Feb 2024 12:40:43 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/022020241240-day008/</guid>
+      <description>array vs linked list, sequential vs linked
+singly linked list
+doubly linked list
+6.042J (7/25 lectures):
+matching problem perfect matching matching with minimum weight stable perfect matching (priority, preferences) WTF.</description>
+    </item>
+    
+    <item>
+      <title>021920241324 Newpost</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/021920241324-day007/</link>
+      <pubDate>Mon, 19 Feb 2024 13:24:26 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/021920241324-day007/</guid>
+      <description> circular (ring) queue
+Josephus
+deque
+infix to postfix calculator
+6.042J (6/25 lectures):
+graph theory and coloring </description>
+    </item>
+    
+    <item>
+      <title>day006- sunday off</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/021820242134-day006/</link>
+      <pubDate>Sun, 18 Feb 2024 21:34:57 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/021820242134-day006/</guid>
+      <description>결국 돈을 버는 방법은 실력을 증명해서 밖에 없는거야. 왜냐면 말빨로 사람을 설득할 것도 아니고, 사람들 사이에서 거래를 할 만큼 얼굴이 두꺼울 것도 아니고.</description>
+    </item>
+    
+    <item>
+      <title>021720242214 Newpost</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/021720242214-day005/</link>
+      <pubDate>Sat, 17 Feb 2024 22:14:56 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/021720242214-day005/</guid>
+      <description>stringADT
+polynomial data
+spatial polynomial
+array
+array2D
+spatial array
+stack
+pathfinder
+hanoi tower
+6.042J (5/25 lectures):
+number theory II (still not good &amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>일상을 찾기</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/021720242025-newpost/</link>
+      <pubDate>Sat, 17 Feb 2024 20:25:54 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/021720242025-newpost/</guid>
+      <description>내가 좋아하는 것들이 내 앞을 가로막고 있다는 생각이 들었을 즈음, 혹은 내가 좋아하는 것들을 핑계로 앞으로 가기를 주저하고 있다는 생각이 들었을 즈음, 나는 현실을 받아들여야겠다고 생각했고, 한편으로는 나는 그저 망설인 것일 뿐이고 충분히 이 현실 속에서도 내가 해낼 수 있는 것들이 있다고 증명하고 싶었다.</description>
+    </item>
+    
+    <item>
+      <title>day004</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/021620242342-day004/</link>
+      <pubDate>Fri, 16 Feb 2024 23:42:47 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/021620242342-day004/</guid>
+      <description>6.042J (4/25 lectures): number theory I (거의 못알아들음;) 코딩은 너무 귀찮아서 못함&amp;hellip;&amp;hellip;&amp;hellip;.하</description>
+    </item>
+    
+    <item>
+      <title>021520242308 Newpost</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/021520242308-day003/</link>
+      <pubDate>Thu, 15 Feb 2024 23:08:25 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/021520242308-day003/</guid>
+      <description> recursion
+sum by recursion
+fibonacci
+recursive binary search
+permutation
+6.042J (3/25 lectures):
+invariant strong induction </description>
+    </item>
+    
+    <item>
+      <title>day002</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/021420242241-day002/</link>
+      <pubDate>Wed, 14 Feb 2024 22:41:28 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/021420242241-day002/</guid>
+      <description>ch1 end
+bubble sort insertion sort sequential search char compression binary search bigO AccCpp (2/16)
+ch0
+ch1
+ch2
+6.042J (2/25 lectures):</description>
+    </item>
+    
+    <item>
+      <title>021420240041 Newpost</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/021420240041-newpost/</link>
+      <pubDate>Wed, 14 Feb 2024 00:41:34 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/021420240041-newpost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>day001</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/021320242344-day001/</link>
+      <pubDate>Tue, 13 Feb 2024 23:44:06 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/021320242344-day001/</guid>
+      <description>c++ basic : done 책 한권 보면서 좀 더 익숙해져야 할 것..
+data structure : selection sort 새로운 개념은 없었고.</description>
+    </item>
+    
+    <item>
+      <title>전공자와 비전공자의 차이는 얼만큼일까?</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/012620242058-ep01/</link>
+      <pubDate>Fri, 26 Jan 2024 20:58:32 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/012620242058-ep01/</guid>
+      <description>안녕하세요, 재입니다. 오늘은 개발자에게 전공을 했다는 것이, 비전공자와 얼만큼의 차이인지 분석해보고, 전공자만큼의 실력을 갖추기 위한 계획을 세워보도록 하겠습니다. 시작하겠습니다!
+먼저 제 배경을 간단하게 설명하자면, 밴쿠버에 있는 영화 애니메이션 회사에서 일하고 있는 직장인 입니다.</description>
+    </item>
+    
+    <item>
+      <title>FakeAesthetics - 01 what is important to ART?</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/012420242250-fakeaesthetics/</link>
+      <pubDate>Wed, 24 Jan 2024 22:50:41 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/012420242250-fakeaesthetics/</guid>
+      <description>이거 정말 예술이네, 예술이 뭔데?
+예술은 뭘까?
+본 영상의 언급된 의견들은 영상 제작자의 개인적인 견해이며, 특정한 레퍼런스를 참고하고 있지 않습니다. 의도하지 않게 기존에 접했던 정보들을 직접적으로 사용하고 있는 것으로 확인이 되어 불편을 끼치게 된다면, 레퍼런스로 언급할 수 있도록 꼭 제보 부탁드립니다.</description>
+    </item>
+    
+    <item>
+      <title>Feb 2024</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/01_feb2024/</link>
+      <pubDate>Mon, 22 Jan 2024 21:21:59 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/01_feb2024/</guid>
+      <description>C++ review
+C++ book (acc c++)
+Data Structure
+6.042</description>
+    </item>
+    
+    <item>
+      <title>July, Aug, Sep 2024</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/04_julaugsep2024/</link>
+      <pubDate>Mon, 22 Jan 2024 21:21:59 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/04_julaugsep2024/</guid>
+      <description>[July]
+graphics in vulkan: hong3 leetcode calculus2 [Aug]
+graphics in vulkan: hong4 leetcode calculus3 [Sep]
+graphics in vulkan: project leetcode calculus3 </description>
+    </item>
+    
+    <item>
+      <title>Mar, Apr 2024</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/02_marapr2024/</link>
+      <pubDate>Mon, 22 Jan 2024 21:21:59 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/02_marapr2024/</guid>
+      <description>[March]
+Algorithms ppp (1000p..) 6.042 [April]
+STL / effective STL raytracing books (3/3) Linear algebra </description>
+    </item>
+    
+    <item>
+      <title>May, June 2024</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/03_mayjun2024/</link>
+      <pubDate>Mon, 22 Jan 2024 21:21:59 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/03_mayjun2024/</guid>
+      <description>[May]
+graphics in vulkan : hong1 leetcode calculus1 Effective modern C++ [June]
+graphics in vulkan : hong2 leetcode calculus2 Design patterns in modern c++ </description>
+    </item>
+    
+    <item>
+      <title>new 2025</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/06_janfebmar2025/</link>
+      <pubDate>Mon, 22 Jan 2024 21:21:59 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/06_janfebmar2025/</guid>
+      <description>project
+leetcode
+numerical method 2</description>
+    </item>
+    
+    <item>
+      <title>new 2025</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/07_apr-dec_projects2025/</link>
+      <pubDate>Mon, 22 Jan 2024 21:21:59 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/07_apr-dec_projects2025/</guid>
+      <description>projects &amp;amp; papers
+missing maths
+missing cs topics</description>
+    </item>
+    
+    <item>
+      <title>Oct, Nov, Dec 2024</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/05_octnovdec2024/</link>
+      <pubDate>Mon, 22 Jan 2024 21:21:59 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/05_octnovdec2024/</guid>
+      <description>[Oct] 1.5month
+graphics in vulkan : PBR, PBR book
+leetcode
+numerical method 1
+Numerical programming
+[Dec] 1.5month
+vision lecture / book</description>
+    </item>
+    
+    <item>
+      <title>Majoring CS without degree - resources</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/012220241958-resources/</link>
+      <pubDate>Mon, 22 Jan 2024 19:58:06 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/012220241958-resources/</guid>
+      <description>data structures and algorithms MIT 6.006 Introduction to Algorithms, Spring 2020 : https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY MIT 6.046J Design and Analysis of Algorithms, Spring 2015 : https://www.</description>
+    </item>
+    
+    <item>
+      <title>self study CS curriculum</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/012120241541-nodegreecs/</link>
+      <pubDate>Sun, 21 Jan 2024 15:41:52 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/012120241541-nodegreecs/</guid>
+      <description>things that inspired me to do this.
+https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/ https://www.mrdbourke.com/aimastersdegree/?ref=mrdbourke.com https://github.com/emilwallner/How-to-learn-Deep-Learning requirements for Majoring CS https://www.eecs.mit.edu/academics/undergraduate-programs/curriculum/6-3-computer-science-and-engineering/
+Two programming skills subjects (C or python) ***</description>
+    </item>
+    
     <item>
       <title>hidden world</title>
-      <link>http://jaechoidev.github.io/notes/012120241431-hidden/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/012120241431-hidden/</link>
       <pubDate>Sun, 21 Jan 2024 14:31:28 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/notes/012120241431-hidden/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/012120241431-hidden/</guid>
       <description>this is erroring because of @Published.
 class Test : ObservableObject { @Published var cubes: [String] @Published var planes: [String] init() { self.</description>
     </item>
     
     <item>
       <title>011620241635 Newpost</title>
-      <link>http://jaechoidev.github.io/raws/011620241635-newpost/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/011620241635-newpost/</link>
       <pubDate>Tue, 16 Jan 2024 16:35:51 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/011620241635-newpost/</guid>
-      <description></description>
+      <guid>http://jaechoidev.github.io/raws/z_archive/011620241635-newpost/</guid>
+      <description>To help you learn more I have included many additional resources to many of the lecture videos. I highly recommend you read/watch them.</description>
     </item>
     
     <item>
       <title>011620240816 시대예보-핵개인의 시대</title>
-      <link>http://jaechoidev.github.io/notes/011620240816-reading/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/011620240816-reading/</link>
       <pubDate>Tue, 16 Jan 2024 08:16:40 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/notes/011620240816-reading/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/011620240816-reading/</guid>
       <description>우리는 모두 쪼개지고 흩어지고 홀로 서게 된다. 디지털 도구와 인공지능 시스템의 도래, 얼마나 더 길어질지 모르는 생애주기, 조직과 가족이라는 테두리의 무너짐, 권위주의의 몰락과 기득권의 와해,</description>
     </item>
     
     <item>
       <title>011120240321 Newpost</title>
-      <link>http://jaechoidev.github.io/raws/011120240321-newpost/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/011120240321-newpost/</link>
       <pubDate>Thu, 11 Jan 2024 03:21:59 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/011120240321-newpost/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/011120240321-newpost/</guid>
       <description>Source : https://www.google.com/maps/d/viewer?ll=49.261852000000005%2C-123.24826300000001&amp;amp;spn=0.014028%2C0.038066&amp;amp;msa=0&amp;amp;iwloc=0004d8b88fe8029eba263&amp;amp;mid=1fmvuTk4654NGRwoIon6yadBx_LY&amp;amp;z=15
 Contribution : login
 Support developer : -_-
@@ -51,10 +334,10 @@ The light blue placemarks represent Water Fillz stations or Brita Hydration Stat
     
     <item>
       <title>010920240454 monthly </title>
-      <link>http://jaechoidev.github.io/notes/010920240454-monthly/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/010920240454-monthly/</link>
       <pubDate>Tue, 09 Jan 2024 04:54:50 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/notes/010920240454-monthly/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/010920240454-monthly/</guid>
       <description>Monthly goals
 3 months Jan - Mar goal : First Product on app store
 swift concurrency 19 (8) swiftui advanced 34 (1) swiftui continued learning review 34 (1) swiftui metal 18 (1) ios academy tutorials kodeco.</description>
@@ -62,10 +345,10 @@ swift concurrency 19 (8) swiftui advanced 34 (1) swiftui continued learning revi
     
     <item>
       <title>stick to it</title>
-      <link>http://jaechoidev.github.io/notes/010320240840-sticktoit/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/010320240840-sticktoit/</link>
       <pubDate>Wed, 03 Jan 2024 08:40:28 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/notes/010320240840-sticktoit/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/010320240840-sticktoit/</guid>
       <description>오늘은 3일. 작심삼일 이라는 말이 생각나는 날. 아주 타이트하게 계획을 실행하고 있는 건 아니지만, 그래도 조금씩 계속 진행하려고 하고 있다.</description>
     </item>
     
@@ -81,29 +364,29 @@ Array.filter { $0.starts(with: &amp;ldquo;#&amp;rdquo;) } : filters elements whi
     
     <item>
       <title>Killers of the Flower Moon</title>
-      <link>http://jaechoidev.github.io/notes/010120241501-moviereview/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/010120241501-moviereview/</link>
       <pubDate>Mon, 01 Jan 2024 15:01:17 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/notes/010120241501-moviereview/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/010120241501-moviereview/</guid>
       <description>The most important thing to pay attention to in this movie is the other side of the dialogue and the emotions expressed by the characters.</description>
     </item>
     
     <item>
       <title>2024, new years resolutions</title>
-      <link>http://jaechoidev.github.io/notes/010120241455-newyear/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/010120241455-newyear/</link>
       <pubDate>Mon, 01 Jan 2024 14:55:41 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/notes/010120241455-newyear/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/010120241455-newyear/</guid>
       <description>This is a list in my (new) tracker app.
 write anything in the morning (prob like this in blog, to see my progresses) walk or cycle 45min / check weight / drink water 3L (take care of health) learning 1h (mostly for side projects) side project 3h (at least.</description>
     </item>
     
     <item>
       <title>121520230831 product ideas</title>
-      <link>http://jaechoidev.github.io/notes/121520230831-productideas/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/121520230831-productideas/</link>
       <pubDate>Fri, 15 Dec 2023 08:31:38 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/notes/121520230831-productideas/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/121520230831-productideas/</guid>
       <description>video to blogpost
 speech to text video to images UI timeframes html export plugins kanban todos
 ubc water fountain</description>
@@ -111,37 +394,37 @@ ubc water fountain</description>
     
     <item>
       <title>121420230744 ios-udemy</title>
-      <link>http://jaechoidev.github.io/raws/121420230744-udemy_ios/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/121420230744-udemy_ios/</link>
       <pubDate>Thu, 14 Dec 2023 07:44:05 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/121420230744-udemy_ios/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/121420230744-udemy_ios/</guid>
       <description></description>
     </item>
     
     <item>
       <title>121020231443 some plans</title>
-      <link>http://jaechoidev.github.io/raws/121020231443-someplans/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/121020231443-someplans/</link>
       <pubDate>Sun, 10 Dec 2023 14:43:34 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/121020231443-someplans/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/121020231443-someplans/</guid>
       <description>wake up at 4am (sleep at 9) walk 40min 5:30 am to 8:30 am bootstrapping work better lose weight.. so what&amp;rsquo;s your plan?</description>
     </item>
     
     <item>
       <title>120820231743 Newpost</title>
-      <link>http://jaechoidev.github.io/raws/120820231743-newpost/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/120820231743-newpost/</link>
       <pubDate>Fri, 08 Dec 2023 17:43:56 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/120820231743-newpost/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/120820231743-newpost/</guid>
       <description></description>
     </item>
     
     <item>
       <title>120820231739 - weather app</title>
-      <link>http://jaechoidev.github.io/posts/120820231739-weather-app/</link>
+      <link>http://jaechoidev.github.io/raws/z_archive/120820231739-weather-app/</link>
       <pubDate>Fri, 08 Dec 2023 17:39:09 -0800</pubDate>
       
-      <guid>http://jaechoidev.github.io/posts/120820231739-weather-app/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/120820231739-weather-app/</guid>
       <description>01.01, 2024 On hold.. testing some other features recently, like timer, notification, etc.
 12.08, 2023 I&amp;rsquo;m making a weather app.</description>
     </item>

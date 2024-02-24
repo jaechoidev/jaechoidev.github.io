@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>day009 - Devlog</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="day009" />
+<meta property="og:description" content="acc cpp : reading.. ch4
+6.042J (8/25 lectures): Graph theory II : minimum spanning trees
+walk : A walk is a sequence of vertices connected by edges." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://jaechoidev.github.io/raws/z_archive/022120242014-day009/" /><meta property="article:section" content="raws" />
+<meta property="article:published_time" content="2024-02-21T20:14:53-08:00" />
+<meta property="article:modified_time" content="2024-02-21T20:14:53-08:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="day009"/>
+<meta name="twitter:description" content="acc cpp : reading.. ch4
+6.042J (8/25 lectures): Graph theory II : minimum spanning trees
+walk : A walk is a sequence of vertices connected by edges."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="http://jaechoidev.github.iocss/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://jaechoidev.github.iocss/main.css" />
+	<link rel="stylesheet" type="text/css" href="http://jaechoidev.github.iocss/custom.css" />
+	<link rel="stylesheet" type="text/css" href="http://jaechoidev.github.iocss/dark.css"  />
+	<link rel="stylesheet" type="text/css" href="http://jaechoidev.github.iocss/custom-dark.css"  />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="http://jaechoidev.github.iojs/main.js"></script>
+	<script src="http://jaechoidev.github.iojs/abc.js"></script>
+	<script src="http://jaechoidev.github.iojs/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="http://jaechoidev.github.io">
+	<h1 class="site-title"><a href="http://jaechoidev.github.io">Devlog</a></h1>
+	<div class="site-description"><h2></h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/jaechoidev" title="Github"><i data-feather="github"></i></a><a href="https://www.linkedin.com/in/jaechoidev" title="Linkedin"><i data-feather="linkedin"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/posts">posts</a>
+			</li>
+			
+			<li>
+				<a href="/notes">notes</a>
+			</li>
+			
+			<li>
+				<a href="/resources">resources</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h2 class="title">day009</h2>
+			<div class="meta">Posted at &mdash; Feb 21, 2024 <span class="draft-label">DRAFT</span> </div>
+		</div>
+
+		<div class="markdown">
+			<ul>
+<li>
+<p>acc cpp : reading.. ch4</p>
+</li>
+<li>
+<p>6.042J (8/25 lectures):
+Graph theory II : minimum spanning trees</p>
+<ul>
+<li>
+<p>walk : A walk is a sequence of vertices connected by edges.</p>
+</li>
+<li>
+<p>path : A path is a walk where all vertices are different</p>
+</li>
+<li>
+<p>lemma1 : if there exist a walk from u to v, then there also exist a path from u to v</p>
+</li>
+<li>
+<p>PROOF : there exist a walk from u to v,
+by well ordering principle : walk of minimal length
+u = v0 - v1 - .. -vk = v
+BY CONRADICTION</p>
+</li>
+<li>
+<p>connectivity : u and v are connected if there is a pth from u to v</p>
+</li>
+<li>
+<p>graph connected : when every pair of vertices are connected</p>
+</li>
+<li>
+<p>cycles and closed walks : a closed walk is a walk which starts and ends at exactly the same vertex</p>
+</li>
+<li>
+<p>cycle : if k &gt;= 3 and v0 .. vk-1 are different, then we are saying that we have a cycle.</p>
+</li>
+<li>
+<p>trees : A connected and acycle graph is called a tree</p>
+</li>
+<li>
+<p>leaves : a leaf is a node with degree 1 in a tree.</p>
+</li>
+<li>
+<p>lemma2 : any connected subgraph of a tree is a tree?</p>
+</li>
+<li>
+<p>proof by contradiction : suppose the connected subgraph is not a tree - has a cycle - so the whole graph has this particular cycle XX</p>
+</li>
+<li>
+<p>lemma3 : a tree with n vertices has n-1 edges</p>
+</li>
+<li>
+<p>by induction : P(n) = there are n - 1 edges in any n vertices tree</p>
+</li>
+<li>
+<p>base case : P(1) = there are 0 edges in any 1 vertex tree (true)</p>
+</li>
+<li>
+<p>inductive step : P(n) -&gt; P(n+1)</p>
+</li>
+<li>
+<p>assume suppose P(n) is true,
+then need to prove P(n+1) = there are n edges in any n+1 vertices</p>
+</li>
+<li>
+<p>let v be a leaf of the tree, delete v : this creates a connected subgraph -&gt; tree
+by P(n), it has n-1 edges
+re-attach v, then I will get back the graph, with n edges.</p>
+</li>
+</ul>
+<p>** spanning tree : all vertices of graph, and tree. - connected graph
+:: a spanning tree (ST) of a connected graph is actually a subgraph that is a tree (1) and with the same vertices as the graph (2)</p>
+<p>Theorem : every connected graph has a spanning tree
+PF : by contradiction - assume that we have a connected graph G that has no spanning tree.
+Let T be a connected subgraph of G and we assume that with the same vertices as G and with the smallest number of edges possible -&gt; T is not a ST -&gt; T mush have a cycle</p>
+<p>case : any pair x - y it does not contain e,</p>
+<p>weighted minimum ST:</p>
+</li>
+</ul>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/untagged">untagged</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		<div id="disqus_thread"></div>
+<script type="text/javascript">
+	(function () {
+		
+		
+		if (window.location.hostname == "localhost")
+			return;
+
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		var disqus_shortname = 'jaechoi';
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+		Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © Copyright notice |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123-45', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script>feather.replace()</script>
+</body>
+</html>

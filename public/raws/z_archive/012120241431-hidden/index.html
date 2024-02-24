@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>hidden world - Devlog</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="hidden world" />
+<meta property="og:description" content="this is erroring because of @Published.
+class Test : ObservableObject { @Published var cubes: [String] @Published var planes: [String] init() { self." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://jaechoidev.github.io/raws/z_archive/012120241431-hidden/" /><meta property="article:section" content="raws" />
+<meta property="article:published_time" content="2024-01-21T14:31:28-08:00" />
+<meta property="article:modified_time" content="2024-01-21T14:31:28-08:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="hidden world"/>
+<meta name="twitter:description" content="this is erroring because of @Published.
+class Test : ObservableObject { @Published var cubes: [String] @Published var planes: [String] init() { self."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="http://jaechoidev.github.iocss/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://jaechoidev.github.iocss/main.css" />
+	<link rel="stylesheet" type="text/css" href="http://jaechoidev.github.iocss/custom.css" />
+	<link rel="stylesheet" type="text/css" href="http://jaechoidev.github.iocss/dark.css"  />
+	<link rel="stylesheet" type="text/css" href="http://jaechoidev.github.iocss/custom-dark.css"  />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="http://jaechoidev.github.iojs/main.js"></script>
+	<script src="http://jaechoidev.github.iojs/abc.js"></script>
+	<script src="http://jaechoidev.github.iojs/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="http://jaechoidev.github.io">
+	<h1 class="site-title"><a href="http://jaechoidev.github.io">Devlog</a></h1>
+	<div class="site-description"><h2></h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/jaechoidev" title="Github"><i data-feather="github"></i></a><a href="https://www.linkedin.com/in/jaechoidev" title="Linkedin"><i data-feather="linkedin"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/posts">posts</a>
+			</li>
+			
+			<li>
+				<a href="/notes">notes</a>
+			</li>
+			
+			<li>
+				<a href="/resources">resources</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h2 class="title">hidden world</h2>
+			<div class="meta">Posted at &mdash; Jan 21, 2024 <span class="draft-label">DRAFT</span> </div>
+		</div>
+
+		<div class="markdown">
+			<p>this is erroring because of @Published.</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#268bd2">class</span> <span style="color:#268bd2">Test</span> : ObservableObject {
+</span></span><span style="display:flex;"><span>    @Published <span style="color:#268bd2">var</span> <span style="color:#268bd2">cubes</span>: [<span style="color:#b58900">String</span>]
+</span></span><span style="display:flex;"><span>    @Published <span style="color:#268bd2">var</span> <span style="color:#268bd2">planes</span>: [<span style="color:#b58900">String</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#268bd2">init</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#cb4b16">self</span>.cubes = [<span style="color:#2aa198">&#34;test_a&#34;</span>]
+</span></span><span style="display:flex;"><span>        <span style="color:#268bd2">let</span> <span style="color:#268bd2">a</span> = <span style="color:#2aa198">&#34;test_a&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#cb4b16">self</span>.cubes.append(a)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#cb4b16">self</span>.planes = []
+</span></span><span style="display:flex;"><span>        <span style="color:#268bd2">let</span> <span style="color:#268bd2">b</span> = <span style="color:#2aa198">&#34;test_b&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#cb4b16">self</span>.planes.append(b)
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>I asked to GPT and it doesn&rsquo;t know exactly but I poked to answer anything then it&rsquo;s like this.</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>The error message you&#39;re encountering, where self.planes is reported as being used before being initialized, might indeed be related to how memory is allocated and managed for properties marked with @Published in a class conforming to ObservableObject in SwiftUI.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Understanding what&#39;s happening under the hood requires diving into how SwiftUI and Combine handle property wrappers and observable objects. Here&#39;s a closer look:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Memory Allocation and Initialization in Swift
+</span></span><span style="display:flex;"><span>Two-Phase Initialization:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Swift&#39;s classes have a two-phase initialization process. In the first phase, each property of the class must be assigned an initial value. Only after all properties have been initialized can you call any instance methods, access any instance properties, or reference self.
+</span></span><span style="display:flex;"><span>@Published Property Wrapper:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>The @Published property wrapper adds an additional layer to the property. It&#39;s not just a simple value storage; it also includes a publisher.
+</span></span><span style="display:flex;"><span>When a property is marked as @Published, it’s wrapped in a Published struct, which manages the storage and provides a Publisher.
+</span></span><span style="display:flex;"><span>This wrapping process might have implications for the initialization phase, especially in terms of when self is considered fully initialized.
+</span></span><span style="display:flex;"><span>Possible Reasons for the Error
+</span></span><span style="display:flex;"><span>@Published and Memory Management:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>The compiler needs to ensure that all properties are fully initialized before self can be used. For @Published properties, this might involve setting up the publisher, which could internally reference self.
+</span></span><span style="display:flex;"><span>If the compiler detects that the memory for self might be accessed before all properties are initialized, it will throw an error.
+</span></span><span style="display:flex;"><span>SwiftUI and Combine Internal Mechanics:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>SwiftUI and Combine might have internal mechanisms that reference self when setting up @Published properties. If these mechanisms are triggered before all properties are initialized, it could lead to the error.
+</span></span><span style="display:flex;"><span>Compiler Optimization and Safety Checks:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Swift’s compiler performs many optimizations and safety checks. It might be overly cautious in ensuring that all properties are initialized before any are used, especially when dealing with property wrappers that have complex behaviors, like @Published.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Resolution
+</span></span><span style="display:flex;"><span>In practice, the solution often involves ensuring that all @Published properties are initialized before they are used in any way, including any implicit use by the framework itself. This might mean changing the order of initialization or simplifying the initializer. However, if the error persists despite proper sequential initialization, it could be a bug or a limitation in the compiler&#39;s understanding of complex initializations involving property wrappers like @Published.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Conclusion
+</span></span><span style="display:flex;"><span>While the exact internal workings of the SwiftUI and Combine frameworks regarding property wrapper initialization are not fully documented, understanding the two-phase initialization process in Swift and the additional complexity introduced by property wrappers like @Published can help in diagnosing and resolving such issues. If these approaches don&#39;t resolve the issue, consider reaching out to the Swift developer community or filing a report with Apple, as it might be an edge case or bug in the compiler.
+</span></span></code></pre></div><p>funny world.
+If you can ask better questions, it can be answer anything like it can &lsquo;guess&rsquo;.
+And.. when the things are getting convinient, more things are hidden under the hood.
+that&rsquo;s sometimes frustrating because it seems like you can make something working &rsquo;easily than before&rsquo;,
+but that doesn&rsquo;t guarantee full quality of your work.
+there should be more than that.</p>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/untagged">untagged</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		<div id="disqus_thread"></div>
+<script type="text/javascript">
+	(function () {
+		
+		
+		if (window.location.hostname == "localhost")
+			return;
+
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		var disqus_shortname = 'jaechoi';
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+		Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © Copyright notice |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123-45', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script>feather.replace()</script>
+</body>
+</html>
