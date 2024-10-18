@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>c&#43;&#43; topics to cover - Devlog</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="c&#43;&#43; topics to cover" />
+<meta property="og:description" content="[v] hello world
+[v] console I/O
+boolean datatype
+reference
+string 클래스
+파일 입출력(I/O)
+개체지향 프로그래밍(object-oriented programming) 1 클래스 스택과 힙 new, delete 키워드 생성자(constructor), 초기화 리스트(initializer list) 생성자 오버로딩(constructor overloading), 소멸자(destructor) const 키워드 복사 생성자(copy constructor) 함수 오버로딩(function overloading) 연산자 오버로딩(operator overloading) friend 키워드 상속(inheritance) 다형성(polymorphism), 가상함수(virtual function), 가상 테이블(virtual table) 다중상속(multiple inheritance) 추상 클래스(abstract class) &ldquo;인터페이스(interface)&rdquo;" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://jaechoidev.github.io/raws/z_archive/022920241148-newpost/" /><meta property="article:section" content="raws" />
+<meta property="article:published_time" content="2024-02-29T11:48:41-08:00" />
+<meta property="article:modified_time" content="2024-02-29T11:48:41-08:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="c&#43;&#43; topics to cover"/>
+<meta name="twitter:description" content="[v] hello world
+[v] console I/O
+boolean datatype
+reference
+string 클래스
+파일 입출력(I/O)
+개체지향 프로그래밍(object-oriented programming) 1 클래스 스택과 힙 new, delete 키워드 생성자(constructor), 초기화 리스트(initializer list) 생성자 오버로딩(constructor overloading), 소멸자(destructor) const 키워드 복사 생성자(copy constructor) 함수 오버로딩(function overloading) 연산자 오버로딩(operator overloading) friend 키워드 상속(inheritance) 다형성(polymorphism), 가상함수(virtual function), 가상 테이블(virtual table) 다중상속(multiple inheritance) 추상 클래스(abstract class) &ldquo;인터페이스(interface)&rdquo;"/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="http://jaechoidev.github.iocss/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://jaechoidev.github.iocss/main.css" />
+	<link rel="stylesheet" type="text/css" href="http://jaechoidev.github.iocss/custom.css" />
+	<link rel="stylesheet" type="text/css" href="http://jaechoidev.github.iocss/dark.css"  />
+	<link rel="stylesheet" type="text/css" href="http://jaechoidev.github.iocss/custom-dark.css"  />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="http://jaechoidev.github.iojs/main.js"></script>
+	<script src="http://jaechoidev.github.iojs/abc.js"></script>
+	<script src="http://jaechoidev.github.iojs/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="http://jaechoidev.github.io">
+	<h1 class="site-title"><a href="http://jaechoidev.github.io">Devlog</a></h1>
+	<div class="site-description"><h2></h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/jaechoidev" title="Github"><i data-feather="github"></i></a><a href="https://www.linkedin.com/in/jaechoidev" title="Linkedin"><i data-feather="linkedin"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/posts">posts</a>
+			</li>
+			
+			<li>
+				<a href="/notes">notes</a>
+			</li>
+			
+			<li>
+				<a href="/resources">resources</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h2 class="title">c&#43;&#43; topics to cover</h2>
+			<div class="meta">Posted at &mdash; Feb 29, 2024 <span class="draft-label">DRAFT</span> </div>
+		</div>
+
+		<div class="markdown">
+			<ul>
+<li>
+<p>[v] hello world</p>
+</li>
+<li>
+<p>[v] console I/O</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> boolean datatype</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> reference</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> string 클래스</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 파일 입출력(I/O)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 개체지향 프로그래밍(object-oriented programming) 1
+클래스
+스택과 힙
+new, delete 키워드
+생성자(constructor), 초기화 리스트(initializer list)
+생성자 오버로딩(constructor overloading), 소멸자(destructor)
+const 키워드
+복사 생성자(copy constructor)
+함수 오버로딩(function overloading)
+연산자 오버로딩(operator overloading)
+friend 키워드
+상속(inheritance)
+다형성(polymorphism), 가상함수(virtual function), 가상 테이블(virtual table)
+다중상속(multiple inheritance)
+추상 클래스(abstract class)
+&ldquo;인터페이스(interface)&rdquo;</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 형변환(type casting)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 인라인 함수(inline function)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 정적(static) 멤버 함수/변수</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 예외 (exception)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 표준 템플릿 라이브러리(STL, Standard Template Library) 1
+벡터(vector)
+반복자(이터레이터, iterator)
+맵(map)
+셋(set)
+큐(queue)
+스택(stack)
+리스트(list)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 템플릿 프로그래밍(template programming)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 템플릿 특수화(template specialization)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> STL 알고리듬(STL algorithm)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 새로운 키워드들
+auto 키워드
+static_assert 키워드
+default, delete 키워드
+final, override 키워드</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 새로운 자료형들
+nullptr
+고정 폭 정수형(fixed-width integer types)
+enum class</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 새로 추가된 STL 컨테이너
+정렬안된 맵(unordered_map)
+정렬안된 셋(unordered_set)
+어레이(array)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 범위 기반 for(range-based for)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 스마트 포인터(smart pointer) 1
+유니크 포인터(unique_ptr)
+공유 포인터(shared_ptr)
+약한 포인터( weak_ptr)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 이동 생성자(move constructor)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 이동 대입연산자(move assignment operator)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 상수표현식(constexpr)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 람다 표현식(lambda expression)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 가변 인자 템플릿(variadic template)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 파일 시스템(filesystem)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 모듈 시스템(module system)</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> 쓰레드 라이브러리(threading library)
+쓰레드(thread), 뮤텍스(mutex), 조건변수(condition variables)</p>
+</li>
+</ul>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/untagged">untagged</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		<div id="disqus_thread"></div>
+<script type="text/javascript">
+	(function () {
+		
+		
+		if (window.location.hostname == "localhost")
+			return;
+
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		var disqus_shortname = 'jaechoi';
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+		Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © Copyright notice |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123-45', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script>feather.replace()</script>
+</body>
+</html>

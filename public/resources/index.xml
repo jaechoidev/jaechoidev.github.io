@@ -7,24 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Tue, 02 Jan 2024 00:27:39 -0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/resources/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Oct 2024 02:06:14 -0700</lastBuildDate><atom:link href="http://jaechoidev.github.io/resources/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>[swift] map, flatmap, compactmap and filter</title>
-      <link>http://jaechoidev.github.io/resources/010220240027-swift/</link>
-      <pubDate>Tue, 02 Jan 2024 00:27:39 -0800</pubDate>
+      <title>Free courses</title>
+      <link>http://jaechoidev.github.io/resources/101820240206-free_courses/</link>
+      <pubDate>Fri, 18 Oct 2024 02:06:14 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/resources/010220240027-swift/</guid>
-      <description>https://www.swiftbysundell.com/basics/map-flatmap-and-compactmap/
-Array.filter { $0.starts(with: &amp;ldquo;#&amp;rdquo;) } : filters elements which starts with &amp;ldquo;#&amp;rdquo; Array.map { $0.lowercased() } : apply lowercased() to all elements in the array Array.</description>
-    </item>
-    
-    <item>
-      <title>swift snippets</title>
-      <link>http://jaechoidev.github.io/resources/swift/</link>
-      <pubDate>Sun, 10 Sep 2023 14:47:01 -0700</pubDate>
-      
-      <guid>http://jaechoidev.github.io/resources/swift/</guid>
-      <description> xcode shortcuts https://swifteducation.github.io/assets/pdfs/XcodeKeyboardShortcuts.pdf xcode themes https://github.com/hdoria/xcode-themes </description>
+      <guid>http://jaechoidev.github.io/resources/101820240206-free_courses/</guid>
+      <description></description>
     </item>
     
   </channel>

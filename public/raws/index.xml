@@ -7,23 +7,79 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Fri, 23 Feb 2024 17:50:37 -0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/raws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Oct 2024 01:56:39 -0700</lastBuildDate><atom:link href="http://jaechoidev.github.io/raws/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>022320241750 Newpost</title>
-      <link>http://jaechoidev.github.io/raws/022320241750-newpost/</link>
-      <pubDate>Fri, 23 Feb 2024 17:50:37 -0800</pubDate>
+      <title>101820240156 Newpost</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/101820240156-newpost/</link>
+      <pubDate>Fri, 18 Oct 2024 01:56:39 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/raws/022320241750-newpost/</guid>
+      <guid>http://jaechoidev.github.io/raws/z_archive/101820240156-newpost/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>022220241959 Newpost</title>
+      <title>031820242254 openGL</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/031820242254-newpost/</link>
+      <pubDate>Mon, 18 Mar 2024 22:54:38 -0700</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/031820242254-newpost/</guid>
+      <description>[day01]
+getting started(1)
+creating window hello window hello triangle shaders [day02]
+getting started(2)
+textures transformations coordinate systems camera review [day03]</description>
+    </item>
+    
+    <item>
+      <title>c&#43;&#43; topics to cover</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/022920241148-newpost/</link>
+      <pubDate>Thu, 29 Feb 2024 11:48:41 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/022920241148-newpost/</guid>
+      <description>[v] hello world
+[v] console I/O
+boolean datatype
+reference
+string 클래스
+파일 입출력(I/O)
+개체지향 프로그래밍(object-oriented programming) 1 클래스 스택과 힙 new, delete 키워드 생성자(constructor), 초기화 리스트(initializer list) 생성자 오버로딩(constructor overloading), 소멸자(destructor) const 키워드 복사 생성자(copy constructor) 함수 오버로딩(function overloading) 연산자 오버로딩(operator overloading) friend 키워드 상속(inheritance) 다형성(polymorphism), 가상함수(virtual function), 가상 테이블(virtual table) 다중상속(multiple inheritance) 추상 클래스(abstract class) &amp;ldquo;인터페이스(interface)&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>022320241752 Newpost</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/022320241752-plan/</link>
+      <pubDate>Fri, 23 Feb 2024 17:52:40 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/022320241752-plan/</guid>
+      <description>06:50-08:10 wakeup routine 08:15-08:55 let&amp;rsquo;s go! 09:00-13:00 slot 01 13:00-13:30 lunch 13:30-17:30 slot 02 17:30-18:00 walk 18:00-19:00 dinner 19:00-23:00 slot 03 23:00-07:00 sleep 8h</description>
+    </item>
+    
+    <item>
+      <title>temporary layoff</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/022320241751-layoff/</link>
+      <pubDate>Fri, 23 Feb 2024 17:51:20 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/022320241751-layoff/</guid>
+      <description>~ June 9</description>
+    </item>
+    
+    <item>
+      <title>022320241750 Newpost</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/022320241750-newpost/</link>
+      <pubDate>Fri, 23 Feb 2024 17:50:37 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/022320241750-newpost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>day010</title>
       <link>http://jaechoidev.github.io/raws/z_archive/022220241959-day010/</link>
       <pubDate>Thu, 22 Feb 2024 19:59:16 -0800</pubDate>
       
       <guid>http://jaechoidev.github.io/raws/z_archive/022220241959-day010/</guid>
-      <description></description>
+      <description>layed off lol
+6.042J (8/25 lectures): Communication networks </description>
     </item>
     
     <item>
@@ -278,8 +334,11 @@ vision lecture / book</description>
       
       <guid>http://jaechoidev.github.io/raws/z_archive/012120241541-nodegreecs/</guid>
       <description>things that inspired me to do this.
-https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/ https://www.mrdbourke.com/aimastersdegree/?ref=mrdbourke.com https://github.com/emilwallner/How-to-learn-Deep-Learning requirements for Majoring CS https://www.eecs.mit.edu/academics/undergraduate-programs/curriculum/6-3-computer-science-and-engineering/
-Two programming skills subjects (C or python) ***</description>
+https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/
+https://www.mrdbourke.com/aimastersdegree/?ref=mrdbourke.com
+https://github.com/emilwallner/How-to-learn-Deep-Learning
+Two programming skills subjects (C or python) ***
+C : https://www.</description>
     </item>
     
     <item>
@@ -341,6 +400,16 @@ swift concurrency 19 (8) swiftui advanced 34 (1) swiftui continued learning revi
       
       <guid>http://jaechoidev.github.io/raws/z_archive/010320240840-sticktoit/</guid>
       <description>오늘은 3일. 작심삼일 이라는 말이 생각나는 날. 아주 타이트하게 계획을 실행하고 있는 건 아니지만, 그래도 조금씩 계속 진행하려고 하고 있다.</description>
+    </item>
+    
+    <item>
+      <title>[swift] map, flatmap, compactmap and filter</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/010220240027-swift/</link>
+      <pubDate>Tue, 02 Jan 2024 00:27:39 -0800</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/010220240027-swift/</guid>
+      <description>https://www.swiftbysundell.com/basics/map-flatmap-and-compactmap/
+Array.filter { $0.starts(with: &amp;ldquo;#&amp;rdquo;) } : filters elements which starts with &amp;ldquo;#&amp;rdquo; Array.map { $0.lowercased() } : apply lowercased() to all elements in the array Array.</description>
     </item>
     
     <item>
@@ -504,6 +573,15 @@ doodler palette blankapps &amp;lt;&amp;gt;theblankapps</description>
       
       <guid>http://jaechoidev.github.io/raws/z_archive/ios_topics/</guid>
       <description>Views SwiftUI modifiers UIKit Network Calling : URLSession Firebase (database, authentication, logs etc) Data Persistence: UserDefaults CoreData(swiftdata) FileManager NSCache KeyChain CloudKit MultiThreading: DispatchQueue GrandCentralDispatch Async-Await OperationQueues swift concurrency Architecture and ios(swift) characteristics: MVVM Automatic Reference Counting (ARC?</description>
+    </item>
+    
+    <item>
+      <title>swift snippets</title>
+      <link>http://jaechoidev.github.io/raws/z_archive/swift/</link>
+      <pubDate>Sun, 10 Sep 2023 14:47:01 -0700</pubDate>
+      
+      <guid>http://jaechoidev.github.io/raws/z_archive/swift/</guid>
+      <description> xcode shortcuts https://swifteducation.github.io/assets/pdfs/XcodeKeyboardShortcuts.pdf xcode themes https://github.com/hdoria/xcode-themes </description>
     </item>
     
     <item>

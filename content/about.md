@@ -4,8 +4,15 @@ date: 2023-05-27T12:00:00-07:00
 type: "page"
 ---
 
-Hi, I'm Jae. 
+Hi, I'm Jae.
 
-I'm working as TD at Sony pictures imageworks Vancouver. My resposibilities spans helping lighting and compositing teams by making tools, debugging and troubleshooting issues and optimizing renders and workflows. I like to dig into deep inside of problems and find a good solution we can afford. I'm enjoying learning new things and techniques from artists, engineers and other TDs. I think that's what makes my journey as TD grateful. I always like to improve my engineering skills as well, really love to read well-written codes anywhere as well as at work. 
+I'm currently studying Computer Science, focusing on graphics and vision problems.
 
-I hope my learning experiences also can help someone who struggling to learn codes by yourself or planning to shift from artist to technical aspect. 
+- I worked as TD in the VFX and animation industry for about five years.
+- I'm seeking a research opportunity to pursue a master's degree in 2025 Fall or 2026 Spring.
+
+My research interest is
+
+- computational photography: relighting, scene understanding - mostly ML/DL for VFX
+- artwork generation such as style transfer, neural methods for painting, drawing, music, etc.
+- widely interested in specific applications of ML/DL for visual art.

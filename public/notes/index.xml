@@ -7,74 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sun, 21 Jan 2024 14:31:28 -0800</lastBuildDate><atom:link href="http://jaechoidev.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Oct 2024 02:07:23 -0700</lastBuildDate><atom:link href="http://jaechoidev.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>hidden world</title>
-      <link>http://jaechoidev.github.io/notes/012120241431-hidden/</link>
-      <pubDate>Sun, 21 Jan 2024 14:31:28 -0800</pubDate>
+      <title>Research interests</title>
+      <link>http://jaechoidev.github.io/notes/101820240207-research_interests/</link>
+      <pubDate>Fri, 18 Oct 2024 02:07:23 -0700</pubDate>
       
-      <guid>http://jaechoidev.github.io/notes/012120241431-hidden/</guid>
-      <description>this is erroring because of @Published.
-class Test : ObservableObject { @Published var cubes: [String] @Published var planes: [String] init() { self.</description>
-    </item>
-    
-    <item>
-      <title>011620240816 시대예보-핵개인의 시대</title>
-      <link>http://jaechoidev.github.io/notes/011620240816-reading/</link>
-      <pubDate>Tue, 16 Jan 2024 08:16:40 -0800</pubDate>
-      
-      <guid>http://jaechoidev.github.io/notes/011620240816-reading/</guid>
-      <description>우리는 모두 쪼개지고 흩어지고 홀로 서게 된다. 디지털 도구와 인공지능 시스템의 도래, 얼마나 더 길어질지 모르는 생애주기, 조직과 가족이라는 테두리의 무너짐, 권위주의의 몰락과 기득권의 와해,</description>
-    </item>
-    
-    <item>
-      <title>010920240454 monthly </title>
-      <link>http://jaechoidev.github.io/notes/010920240454-monthly/</link>
-      <pubDate>Tue, 09 Jan 2024 04:54:50 -0800</pubDate>
-      
-      <guid>http://jaechoidev.github.io/notes/010920240454-monthly/</guid>
-      <description>Monthly goals
-3 months Jan - Mar goal : First Product on app store
-swift concurrency 19 (8) swiftui advanced 34 (1) swiftui continued learning review 34 (1) swiftui metal 18 (1) ios academy tutorials kodeco.</description>
-    </item>
-    
-    <item>
-      <title>stick to it</title>
-      <link>http://jaechoidev.github.io/notes/010320240840-sticktoit/</link>
-      <pubDate>Wed, 03 Jan 2024 08:40:28 -0800</pubDate>
-      
-      <guid>http://jaechoidev.github.io/notes/010320240840-sticktoit/</guid>
-      <description>오늘은 3일. 작심삼일 이라는 말이 생각나는 날. 아주 타이트하게 계획을 실행하고 있는 건 아니지만, 그래도 조금씩 계속 진행하려고 하고 있다.</description>
-    </item>
-    
-    <item>
-      <title>Killers of the Flower Moon</title>
-      <link>http://jaechoidev.github.io/notes/010120241501-moviereview/</link>
-      <pubDate>Mon, 01 Jan 2024 15:01:17 -0800</pubDate>
-      
-      <guid>http://jaechoidev.github.io/notes/010120241501-moviereview/</guid>
-      <description>The most important thing to pay attention to in this movie is the other side of the dialogue and the emotions expressed by the characters.</description>
-    </item>
-    
-    <item>
-      <title>2024, new years resolutions</title>
-      <link>http://jaechoidev.github.io/notes/010120241455-newyear/</link>
-      <pubDate>Mon, 01 Jan 2024 14:55:41 -0800</pubDate>
-      
-      <guid>http://jaechoidev.github.io/notes/010120241455-newyear/</guid>
-      <description>This is a list in my (new) tracker app.
-write anything in the morning (prob like this in blog, to see my progresses) walk or cycle 45min / check weight / drink water 3L (take care of health) learning 1h (mostly for side projects) side project 3h (at least.</description>
-    </item>
-    
-    <item>
-      <title>121520230831 product ideas</title>
-      <link>http://jaechoidev.github.io/notes/121520230831-productideas/</link>
-      <pubDate>Fri, 15 Dec 2023 08:31:38 -0800</pubDate>
-      
-      <guid>http://jaechoidev.github.io/notes/121520230831-productideas/</guid>
-      <description>video to blogpost
-speech to text video to images UI timeframes html export plugins kanban todos
-ubc water fountain</description>
+      <guid>http://jaechoidev.github.io/notes/101820240207-research_interests/</guid>
+      <description></description>
     </item>
     
   </channel>
