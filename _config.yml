@@ -12,10 +12,10 @@ site_theme               : "default"
 title                    : "Jae Choi"
 title_separator          : "-"
 name                     : &name "Jae Choi"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+description              : &description "portfolio pages"
+url                      : https://jaechoidev.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "jaechoidev/jaechoidev.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,8 +24,8 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Jae Choi"
-  pronouns         : "He/His/Him"  
-  bio              : "Short biography for the left-hand sidebar"
+  pronouns         : # "he/him" 
+  bio              : "Computing Science Student"
   location         : "Burnaby, BC, Canada"
   employer         : "Simon Fraser University"
   uri              : # URL"
@@ -50,7 +50,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -238,8 +238,9 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
+
   # _pages
   - scope:
       path: ""
@@ -272,7 +273,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comment: true
   # _talks
   - scope:
