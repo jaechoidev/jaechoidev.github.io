@@ -11,9 +11,9 @@ I am a computing science undergraduate student at Simon Fraser University. I am 
 [Curriculum Vitae](/files/cv.pdf)
 
 ### Research Interests
-I am interested in generative images and videos and neural rendering.
+- generative models
+- 3d vision (3d reconstruction, 3d scene understanding)
+- also, widely interested in specific applications of ML/DL for visual art (images and videos)
 
 ### Projects
-- learning diffusion model
-- learning 3d vision
-
+- still in the learning about the field phase, but in progress to implement ideas related to diffusion model and 3d reconstruction pipeline. coming soon :)
