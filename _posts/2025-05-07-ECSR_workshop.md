@@ -6,7 +6,7 @@ tags:
   - research, workshop, sfu
 ---
 
-## ECSR workshop 2025 review
+[More information](https://www.sfu.ca/fas/computing/about/diversity-cs/explore-computing-science-workshop-.html#:~:text=Workshop%20Days%3A%20May%207%2D9%2C%202025&text=Some%20program%20highlights%20include%3A,School%20Application%20and%20Funding%20Sources)
 
 The 2025 ECSR Workshop (Explore Computing Science Research Workshop) was a great opportunity to learn what computer science research is about and how it is conducted, especially for prospective graduate and undergraduate students. The program ran for three days it wasn't heavy but was full of meaningful content, including keynote sessions with professors and industry research scientists.
 
