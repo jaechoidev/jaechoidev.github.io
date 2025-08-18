@@ -9,9 +9,6 @@ tags:
 Summer was not good on the GPA side. On the bright side, I did 2 mandatory courses that I didn't have interests,
 and I am working on a capstone project that helps me dip my toe into the research world.
 
-### Review of 2025 summer
-I was fortunate to have these lectures in this semester, and I recommend taking these by following instructors.
-
 #### cmpt 376w - Felix Lo
 I might be able to say in detail, but I want to say on this publicly available post.
 It's mandatory course, so.. good luck for anyone who didn't take it yet.
