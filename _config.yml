@@ -225,7 +225,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-
+  courses:                    
+    output: true
+    permalink: /:collection/:path/
 
 # These settings control how pages and collections are included in the site
 defaults:
@@ -241,6 +243,18 @@ defaults:
       share: false
       related: true
 
+  # _courses
+  - scope:
+      path: ""
+      type: courses
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: false
+      related: true
+
   # _pages
   - scope:
       path: ""
@@ -248,6 +262,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+
   # _teaching
   - scope:
       path: ""
@@ -285,6 +300,7 @@ defaults:
       share: true
 
 
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -316,6 +332,8 @@ whitelist:
   - jekyll-redirect-from
   - jemoji
 
+jekyll_compose:
+    auto_open: true
 
 # Archives
 #  Type

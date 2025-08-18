@@ -1,0 +1,8 @@
+==> Searching for similarly named formulae and casks...
+==> Formulae
+pypy3.10
+python-tk@3.10
+python@3.10
+
+To install pypy3.10, run:
+  brew install pypy3.10

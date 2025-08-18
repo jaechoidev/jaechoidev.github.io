@@ -1,28 +1,28 @@
 ---
-title: 'Pseudo Internship - pending'
-date: 2025-05-09
-permalink: /posts/2025/05/blog-post-0001/
+title: 'Pseudo Internship'
+date: 2025-08-18
+permalink: /posts/2025/08/blog-post-0001/
 tags:
   - pseudo, internship
 ---
 
-edit: I got an interview chance from capstone project (May 12), so pseudo internship might be combined with the capstone project topic if I could get enroll. Let's see..
-
-I tried to contact some professors for research / project related opportunities, but I didn't get any response for this summer.
-I guess I need more records and some projects. So, I found one to customize as my own pseudo internship ;)
 
 ### Program overview
-This is same length with summer term but no final exam period.
-It is around 10 weeks program which covers 3d machine learning (pointnet, nerf) and generative models (diffusion and gan). if time allows, I'd like to try 3dgs code but it's optional. 
+inspired by : https://visual-ai-kaist.notion.site/Summer-2023-fd36da67f21844ca9cca19bb2f5b817d
 
-Also, I'm planning to build paper reading habit. every week, I'll choose 10 papers, and skim them to one line summaries (like I learned from ECSR workshop!). Then, choose 1 paper to read entirely and post the results.
+#### 1. pointnet
+- reference lectures [1](https://www.youtube.com/watch?v=5nwCq8KONRo) [2](https://www.youtube.com/watch?v=4iz_SITZOE4) [3](https://www.youtube.com/watch?v=0oE_S18G8GQ)
+- [tutorial](https://github.com/KAIST-Visual-AI-Group/CS479-Assignment-PointNet)
+- [tutorial slide](https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy82MDU2MjAyM2I2NjQwMjgyL0VlRkFoWV9LRWRaSmduN3RaWlZKWnNzQlExUVlmMktLb3BDMUt3Mkpjd05KNmc%5FZT1aY3A3cmY&cid=60562023B6640282&id=60562023B6640282%21s8f8540e111ca49d6827eed65954966cb&parId=60562023B6640282%21s2c0bb77881d340278e5d198fe134000d&o=OneUp)
+- [paper review](https://visual-ai-kaist.notion.site/Tutorial-1-PointNet-12e12629c85e40779f18633f1e7144b7)
+- [paper](https://arxiv.org/abs/1612.00593)
 
-There are several repos I'm going to use, and maybe I'll take some additional lectures from various sources. Also, I'll find and summary one seminar / talk per week.
+- result
+  - my summary
+  - tutorial finished
 
-In short,
-- several lecture sources
-- 5 project/ assignments
-- 1 paper reading
-- 1 seminar/ talk
+#### 2. nerf
+#### 3. nerf applications
+#### 4. diffusion models
+#### 5. latent diffusion applications
 
-Let's go!

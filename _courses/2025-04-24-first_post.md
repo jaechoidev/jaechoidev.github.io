@@ -1,12 +1,12 @@
 ---
-title: 'Review of 2025 Spring'
+title: '[2025 Spring] Review'
 date: 2025-04-24
-permalink: /posts/2025/04/blog-post-0000/
+permalink: /courses/2025/04/blog-post-0000/
 tags:
   - first
 ---
 
-Yesterday, the first term at SFU is finished. I took five courses and it was rewarding to do as all of the courses were closely related to my interests.
+The first term at SFU has finished. I took five courses and it was rewarding to do as all of the courses were closely related to my interests.
 Some of them were already known before, while others were not. However, all of them helped me filling the bumps between what I knew and what I want to do in research.
 
 This webpage is to leave some traces while I'm in school. I'm not sure if I can find time to do this frequently, but I hope this helps someone who has similar interests.
