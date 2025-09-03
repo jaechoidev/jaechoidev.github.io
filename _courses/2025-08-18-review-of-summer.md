@@ -11,7 +11,9 @@ and I am working on a capstone project that helps me dip my toe into the researc
 
 #### cmpt 376w - Felix Lo
 I might be able to say in detail, but I want to say on this publicly available post.
-It's mandatory course, so.. good luck for anyone who didn't take it yet.
+Nothing special writing course, but the topic could be strange for CS student.
+But for me, it was very basic philosophical thoughts on technology, 
+and just did it as it is mandatory course unfortunately. So.. good luck for anyone who didn't take it yet.
 On the grading side, attendence could make difference, and start assignments and term projects early.
 
 #### cmpt 353 - Greg Baker
@@ -23,6 +25,9 @@ but in general CS students who think on the path of software engineer, it might 
 cmpt354 might be a better choice? I'm not sure.
 
 #### cmpt 494 - Ke Li
+I highly recommend to try this if anyone interested in research world 
+(although not interested in graduate school).
+
 I'm taking this SOSY capstone project with Ke Li. 
 This is an implementation of PAPR (Proximity attention point render) into the nerfstudio codebase.
 It is a team project with one other team member.
@@ -30,4 +35,5 @@ It is a team project with one other team member.
 It helped me to imagine about "what the research path or research engineering would look like".
 Also, it's only two members, I'm thinking about a way to do this team project better.
 Because I thought that the delegation could be done naturally by each of our interests,
-but it's a bit unbalanced at last. I have another semester to finish this project, so we'll see..
+but it was not. I have another semester to finish this project, so we'll see.
+
