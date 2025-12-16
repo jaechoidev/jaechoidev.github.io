@@ -2,6 +2,8 @@
 title: "CMPT 494/495 Capstone Project"
 excerpt: "Interactive 3D Scene Viewer and Editor - PAPR Implementation in Nerfstudio"
 collection: portfolio, capstone
+header:
+  teaser: capstone-papr-results.png
 ---
 
 ## Project Overview

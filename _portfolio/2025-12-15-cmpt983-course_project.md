@@ -2,6 +2,8 @@
 title: "CMPT 983 Generative Modeling Course Project"
 excerpt: "π0.5-IMLE-LoRA: Fast Action Sequence Generation via Implicit Maximum Likelihood Estimation"
 collection: portfolio, Project
+header:
+  teaser: 983.png
 ---
 
 ## Project Overview
