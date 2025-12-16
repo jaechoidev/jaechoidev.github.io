@@ -3,7 +3,7 @@ title: '[paper review] SINGAPO'
 date: 2025-05-18
 permalink: /posts/2025/05/blog-post-0001/
 tags:
-  - research, paper, summary
+  - research,paper,summary
 ---
 
 ## SINGAPO: Single Image Controlled Generation of Articulated Parts In Objects

@@ -15,3 +15,5 @@ package-lock.json
 vendor
 
 _drafts
+assets/pdf/CMPT983_Final_Project_Report.pdf
+.DS_Store
