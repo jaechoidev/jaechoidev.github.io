@@ -1,16 +1,10 @@
 ---
-title: "CMPT 983 Generative Modeling Course Project"
+title: "π0.5-IMLE-LoRA: Fast Action Sequence Generation via Implicit Maximum Likelihood Estimation"
 excerpt: "π0.5-IMLE-LoRA: Fast Action Sequence Generation via Implicit Maximum Likelihood Estimation"
 collection: portfolio, Project
 header:
   teaser: 983.png
 ---
-
-## Project Overview
-
-- **Course**: CMPT 983 - Generative Modeling (Fall 2025)
-- **Topic**: Vision-Language-Action (VLA) Model Optimization
-- **Number of Team members**: Team of 2
 
 ### Abstract
 
@@ -93,3 +87,10 @@ Although RS-IMLE reduces the number of forward passes during inference, the obse
 
 The U-Net experiments revealed a critical insight: the **information bottleneck** created by pooling VLM outputs into a single conditioning vector discards spatial relationships, fine-grained language grounding, and token-level semantics. This explains why π0.5 uses a transformer-based action expert with cross-attention instead of U-Net, as it can attend selectively to different parts of the conditioning sequence for each action generation step.
 
+
+## Project Information
+
+- **Course**: CMPT 983 - Generative Modeling (Fall 2025)
+- **Instructor**: Ke Li
+- **Topic**: Vision-Language-Action (VLA) Model Optimization
+- **Number of Team members**: Team of 2

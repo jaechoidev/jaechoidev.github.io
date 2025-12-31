@@ -1,20 +1,11 @@
 ---
-title: "CMPT 494/495 Capstone Project"
+title: "Application of Neural Rendering"
 excerpt: "Interactive 3D Scene Viewer and Editor - PAPR Implementation in Nerfstudio"
 collection: portfolio, capstone
 header:
   teaser: capstone-papr-results.png
 ---
 
-## Project Overview
-
-- **Supervisor**: Ke Li (keli@sfu.ca)
-- **Duration**: May - December 2025
-- **Team members**: Team of two (Summer) + one more member (Fall)
-
-### References
-- [PAPR Paper Project Page](https://github.com/zvict/papr)
-- [Nerfstudio Documentation](https://docs.nerf.studio)
 
 ### Technologies Used
 - **ML Framework**: PyTorch, Nerfstudio
@@ -85,3 +76,12 @@ The project consists of multiple interconnected repositories:
     └── webgpu-torch/                 # WebGPU-torch fork (my focus)
 ```
 
+## Project Information
+
+- **Supervisor**: Ke Li (keli@sfu.ca)
+- **Duration**: May - December 2025
+- **Team members**: Team of two (Summer) + one more member (Fall)
+
+### References
+- [PAPR Paper Project Page](https://github.com/zvict/papr)
+- [Nerfstudio Documentation](https://docs.nerf.studio)
