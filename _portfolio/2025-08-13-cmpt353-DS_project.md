@@ -3,11 +3,9 @@ title: "A Statistical Analysis of Immigration and Population Growth Effects on C
 excerpt: "A Statistical Analysis of Immigration and Population Growth Effects on Canadian Housing Prices"
 collection: portfolio, Project
 header:
-  teaser: /images/results/population_growth/Canada_population_growth_stacked.png
+  teaser: cmpt353-teaser.png
 ---
 
-
-# A Statistical Analysis of Immigration and Population Growth Effects on Canadian Housing Prices
 
 ## Preparation to run codes
 Repo is in private. Please contact (jaechoi.dev@gmail.com) for more information.
