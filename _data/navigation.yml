@@ -23,8 +23,8 @@ main:
   - title: "Courses"
     url: /courses/
 
-  - title: "Publications"
-    url: /publications/
+  # - title: "Publications"
+  #   url: /publications/
 
   # - title: "CV"
   #   url: /cv/
