@@ -225,7 +225,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  log:
+  logs:
     output: true
     permalink: /:collection/:path/
 
@@ -243,10 +243,10 @@ defaults:
       share: false
       related: true
 
-  # _log
+  # _logs
   - scope:
       path: ""
-      type: log
+      type: logs
     values:
       layout: single
       author_profile: true
