@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Jae Choi"
   pronouns         : # "he/him" 
-  bio              : "ML/AI Research & Pipeline Engineer"
+  bio              : "R&D Software Engineer"
   location         : "Burnaby, BC, Canada"
-  employer         : "Simon Fraser University"
+  employer         : "Image Engine Design Inc."
   uri              : # URL"
   email            : "jaechoi.dev@gmail.com" 
 
@@ -225,7 +225,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  courses:                    
+  log:
     output: true
     permalink: /:collection/:path/
 
@@ -243,10 +243,10 @@ defaults:
       share: false
       related: true
 
-  # _courses
+  # _log
   - scope:
       path: ""
-      type: courses
+      type: log
     values:
       layout: single
       author_profile: true

@@ -7,16 +7,11 @@ redirect_from:
   - /about.html
 ---
 
+Software Engineer at Image Engine, working on 2D department tools and pipeline infrastructure in Python and C++. Interested in GPU rendering, neural 3D representations, and bridging ML with production graphics pipelines.
+
 [Curriculum Vitae](/files/cv.pdf)
 
-### Research Interests
-- **Generative Models for 3D Content**
-  - Image/video editing and personalization
-  - Integration into production workflows
-- **Neural Rendering**
-  - NeRF, 3D Gaussian Splatting, and volumetric methods
-  - 3D-aware generation and scene understanding
-  - Bridging neural representations with traditional graphics pipelines
-- **Synthetic Data for AI/ML**
-  - Scalable data generation pipelines
-  - Quality control and diversity in training datasets
+### Focus Areas
+- GPU Rendering (C++, CUDA, Vulkan)
+- Neural Rendering (3DGS, NeRF)
+- Production Pipeline (USD, ML integration)

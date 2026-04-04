@@ -14,21 +14,21 @@ main:
   # - title: "Teaching"
   #   url: /teaching/    
 
-  - title: "Projects"
-    url: /projects/
-            
   - title: "Posts"
     url: /posts/
 
-  - title: "Courses"
-    url: /courses/
+  - title: "Projects"
+    url: /projects/
+
+  - title: "Logs"
+    url: /logs/
 
   # - title: "Publications"
   #   url: /publications/
 
   # - title: "CV"
   #   url: /cv/
-    
+
   - title: "CV"
     url: /files/cv.pdf
 
