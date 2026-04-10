@@ -11,7 +11,7 @@ Software Engineer at Image Engine, working on 2D department tools and pipeline i
 
 [Curriculum Vitae](/files/cv.pdf)
 
-### Focus Areas
+### Interests
 - GPU Rendering (C++, CUDA, Vulkan)
 - Neural Rendering (3DGS, NeRF)
 - Production Pipeline (USD, ML integration)
