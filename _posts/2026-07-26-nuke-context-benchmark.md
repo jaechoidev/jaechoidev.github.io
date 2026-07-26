@@ -622,8 +622,15 @@ difference a paired test cannot separate from noise.
 
 The study also records what it does not establish — 31 of 38 tasks never
 failed, so a ceiling can't prove absence of an effect, and the version-drift
-tasks remain the strongest untested route. The Sonnet NDK sample now running
-is aimed squarely at the one signal that has held up.
+tasks remained the strongest untested route.
+
+**Post-script: the Sonnet NDK sample is in**, aimed squarely at the one
+signal that had held up. Six NDK tasks (four architecture-tier, two of the
+new version-drift tasks), one trial per cell, 11 of 12 cells recorded: every
+completed run passed in both arms, zero invented APIs anywhere. At one trial
+per cell this is descriptive, not conclusive — but the NDK grounding effect
+did not reproduce on a Sonnet-class model. Even the layer that separated on
+Opus reads at ceiling, with or without the plugin.
 
 ### 9.1 Headline
 
