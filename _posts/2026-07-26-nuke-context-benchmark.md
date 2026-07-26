@@ -589,6 +589,42 @@ structural zero). Numbers below are from `results/claude-opus-5/`, model
 `claude-sonnet-5`'s sibling `claude-opus-5`, 35 non-control tasks plus 3
 controls.
 
+### 9.0 In brief
+
+Section 9 is written from the 418 completed runs, and the picture is coherent
+enough that stopping early cost us little.
+
+The headline is a null result, honestly reported. Base 0.924, plugin 0.952 —
+a paired difference of +2.9 points with a CI spanning zero and McNemar
+p = 0.50, off just two discordant tasks out of 35. With feedback the plugin
+is fractionally behind (0.976 vs 0.986).
+
+Three findings are worth more than that headline.
+
+**NDK is the one place grounding pays**: 0.852 → 1.000, +14.8 points, and
+it's the only compile-graded layer, so a compiler rather than an author's
+assertion is the judge. That same layer, and only that layer, separated in
+both discarded pilots too — it's the most reproducible thing we found.
+
+**Execution feedback beats the plugin.** Letting the agent test its own work
+in Nuke moved base from 0.924 to 0.986, a bigger gain than the plugin
+delivered, and it closes the NDK gap unaided. Stacking the plugin on top adds
+nothing. That's the practical conclusion: when an agent can compile and run,
+it finds its own API errors, and preloading the same facts becomes redundant
+— which the literature anticipated.
+
+**And the mechanism the plugin was built for has largely closed.** One
+invented API in 418 runs. The original result predicted a large reduction
+from a high baseline; the baseline isn't high anymore.
+
+The cost framing is stated plainly below: 2.5× tokens and 2.4× turns for a
+difference a paired test cannot separate from noise.
+
+The study also records what it does not establish — 31 of 38 tasks never
+failed, so a ceiling can't prove absence of an effect, and the version-drift
+tasks remain the strongest untested route. The Sonnet NDK sample now running
+is aimed squarely at the one signal that has held up.
+
 ### 9.1 Headline
 
 | arm | pass@1 | 95% CI (clustered) | mean turns | mean tokens | mean $ (notional) |
