@@ -1,5 +1,5 @@
 ---
-title: "Ollama vs MLX on an M2 Max: six local coding models, and why my last benchmark was wrong"
+title: "Ollama vs MLX on an M2 Max: what actually makes a local coding model usable"
 date: 2026-08-19
 permalink: /posts/2026/08/local-llm-ollama-vs-mlx/
 tags:
