@@ -32,3 +32,10 @@ _portfolio/2025-08-13-cmpt353-DS_project.md
 _includes/.DS_Store
 _sass/.DS_Store
 _posts/2026-04-05-gpu-renderer-01.md
+
+.obsidian/
+_reading-list/inverse-neural-rendering-reading-list-en.md
+_reading-list/3dgs-reading-list-en.md
+_reading-list/Adobe Nextcam Reading List.md
+_reading-list/Computational Photography Reading List.md
+.DS_Store
