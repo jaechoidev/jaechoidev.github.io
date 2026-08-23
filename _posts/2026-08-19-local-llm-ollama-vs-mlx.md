@@ -3,31 +3,40 @@ title: "Ollama vs MLX on an M2 Max: six local coding models, and why my last ben
 date: 2026-08-19
 permalink: /posts/2026/08/local-llm-ollama-vs-mlx/
 tags:
-  - project, llm, benchmark, local, mlx, ollama, apple-silicon
+  - local-llm
+  - benchmark
+  - mlx
+  - ollama
+  - apple-silicon
+  - qwen
+  - llama
 ---
+
+**In short:** the highest-return change on this machine was which tag I pulled.
+`qwen3.6:35b-mlx` decodes at 71.7 tok/s where `qwen3.6:35b` manages 47.4, same
+weights and same Ollama build, because Ollama's Apple Silicon MLX backend
+engages only for models published in MLX format and leaves GGUF models on
+llama.cpp. Everything else was smaller than expected: mlx-lm beats Ollama 0.23.2
+on four of five models but by 5 to 45%, upgrading Ollama bought memory rather
+than speed (DeepSeek dropped from 17.7GB to 13.0GB), and prefill rather than
+decode is what makes a model unusable, with Llama 3.3 70B taking 355 seconds to
+read a 15k-token prompt before emitting a single token. Written quality was
+mediocre across the board: 52 blind-graded outputs averaged 2.92 of 5, and only
+4 of 13 code reviews noticed a reverted security fix sitting in the diff.
 
 ## 1. Summary
 
-In May 2026 I benchmarked five local coding models on a 96GB M2 Max, got tables
-suggesting Ollama beat MLX on every one of them, picked three models, wired them
-into Claude Code, and then quietly stopped using them. I never wrote it up. The
-results file is still a blank template with empty cells and an undecided
-shortlist, which turns out to have been lucky, because the comparison was not
-one.
-
-That harness timed the two engines with different denominators: Ollama's rate
-came from its own generation-phase counter, and MLX's was output tokens divided
-by wall clock, prefill included. The MLX script says so in a comment. Measured
-the same way, mlx-lm decodes faster than that Ollama build on four of five
-models. This post re-runs the experiment with one timing method, adds the
-current generation of models, and reports what the numbers support.
+Six local coding models on a 96GB M2 Max, measured across three runtimes: Ollama
+0.23.2, Ollama 0.32.14, and mlx-lm 0.31.3. Every engine is timed the same way,
+with prompt prefill separated from generation, because a single tokens-per-second
+figure hides the number that actually decides whether a model is usable.
 
 Four things this run establishes:
 
 1. **Prefill, not decode, decides whether a local model is usable.** Llama 3.3
    70B waits nearly six minutes before its first token on a 15k-token code
    review. Its decode rate of 4.7 tok/s does not tell you that, and neither did
-   any number I published in May.
+   any decode rate on its own.
 2. **The artefact format matters more than the tool.** Ollama's Apple Silicon
    MLX backend does not reach existing GGUF models; it only engages for models
    published in MLX format. Pull the right tag and the same weights on the same
@@ -45,45 +54,12 @@ better code review: Qwen3.6 35B-A3B reaches its first token in less than half
 the time Qwen3-Coder 30B-A3B takes and calls tools natively, but scores 3.75
 against its predecessor's 4.00.
 
-Section 8 lists the six defects in this harness that I found while running it.
-Two of them are the same defects the May harness had. The measurement is the
-least-tested code in the room, and it reports to one decimal place whether or
-not it is right.
+Section 7 lists the six defects I found in this harness while running it. A
+benchmark harness is the least-tested code in the room and reports to one
+decimal place whether or not it is right, so the failures are worth as much as
+the numbers.
 
-## 2. Why re-run
-
-In May 2026 I benchmarked five local coding models on a 96GB M2 Max, picked a
-"council" of three, wired them into Claude Code, and then quietly stopped using
-them. The numbers from that run are in the repo. They should not be trusted, and
-this post is partly about why.
-
-The May harness had four defects, each of which produces a confident number:
-
-1. **The two engines were timed differently.** The Ollama script reported
-   tokens/sec over the eval phase only, taken from Ollama's own
-   `eval_duration`. The MLX script divided output tokens by total wall time.
-   Wall time includes prompt prefill, so MLX was charged for work Ollama's
-   number excluded. The columns sat in one table and were never on one axis.
-2. **MLX outputs were silently truncated.** `bench-mlx.sh` sent no
-   `max_tokens`, so mlx-lm applied its default of 512. Seven of twenty runs
-   stopped mid-sentence, and nothing in the output marked them as incomplete.
-3. **The bug-hunt prompt had a junk target.** The harness chose "largest source
-   file in the repo", which in ComfyUI is an auto-generated Pydantic module.
-   Every model correctly answered "no bug here". The prompt measured nothing.
-4. **The two engines ran different models.** `qwen3-coder:30b` on Ollama was
-   compared against `Qwen3-30B-A3B-Instruct-2507` on MLX. Same vendor, same
-   parameter count, different model.
-
-There is a fifth reason, which is not a defect but a change in the world:
-**Ollama on Apple Silicon is now built on MLX.** The May run used Ollama
-0.23.2, which predates that. So "Ollama vs MLX" was, in May, a question about
-two separate engines, and today it is partly a question about one engine before
-and after it changed its backend. This post measures three arms to separate
-those, and section 9.5 shows that the backend change reaches fewer models than
-the announcement suggests. Arm B is labelled by version rather than by engine
-for that reason: for the five GGUF models it is still llama.cpp.
-
-## 3. Hardware and software
+## 2. Hardware and software
 
 | | |
 |---|---|
@@ -96,14 +72,20 @@ for that reason: for the five GGUF models it is still llama.cpp.
 | Sampling | temperature 0.2, `max_tokens` 1024 |
 | Target repo | ComfyUI at `e35348aa` |
 
+Three arms rather than two, because "Ollama vs MLX" is no longer one question.
+Ollama on Apple Silicon is now built on MLX, so an Ollama column has to say
+which version it is. Arm B is labelled by version rather than by engine for that
+reason: as section 8.4 shows, the backend change reaches fewer models than the
+announcement suggests, and for the five GGUF models arm B is still llama.cpp.
+
 Context length is forced because Ollama's default is 4096, which silently
 truncates a 15k-token diff. A model that never saw the input cannot be graded
 on it.
 
-## 4. Measurement
+## 3. Measurement
 
-Both engines are driven over a streaming API by one script (`bench.py`) and
-timed identically:
+Both engines are driven over a streaming API by one harness and timed
+identically:
 
 - **`ttft_s`**: request sent to first content token. This is queueing plus
   prompt prefill.
@@ -116,29 +98,29 @@ sends 10-25k tokens of context before it wants a first token back, so a model
 that decodes at 45 tok/s but prefills at 300 tok/s will feel slow in a way no
 single "tokens per second" figure can express.
 
-Memory is Metal-resident bytes from Ollama's `/api/ps`, and peak RSS of the
-`mlx_lm.server` process for arm C. `finish_reason` is recorded per row, so
+Memory is Metal-resident bytes from Ollama's `/api/ps`, and `phys_footprint`
+of the `mlx_lm.server` process for arm C (section 7.2 explains why not RSS). `finish_reason` is recorded per row, so
 truncation is visible rather than silent.
 
-## 5. The prompts
+## 4. The prompts
 
-Four prompts, unchanged from May, each seeded from the same repo state:
+Four prompts, each seeded from the same repo state:
 
 1. **Code review** of a real 15k-token diff (`HEAD~5..HEAD`).
 2. **Bug hunt** in one complete source file.
 3. **Multi-file planning**, capped at 30 lines, from a file listing.
 4. **Refactor proposal**: show the original, show the replacement.
 
-### 5.1 Choosing the bug-hunt file
+### 4.1 Choosing the bug-hunt file
 
-The May heuristic ("largest source file") is replaced by: the hand-written file
+The target is chosen by rule rather than by hand: the hand-written file
 that does real work (I/O, binary parsing, concurrency), fits whole inside the
 context budget, and has the most control flow. On this ComfyUI revision that
 selects `app/assets/services/metadata_extract.py`, a safetensors header parser.
 The file is passed complete, not truncated, so a model that misses a defect
 cannot blame a missing tail.
 
-### 5.2 Ground truth
+### 4.2 Ground truth
 
 Before grading, I read that file and wrote down what is actually wrong with it,
 along with the plausible-sounding things that are *not* wrong. The full list is
@@ -161,7 +143,7 @@ length read has no off-by-one, and `os.stat_result` is always truthy.
 This list is what separates "found a real bug" from "wrote a convincing
 paragraph". Without it, grading a bug hunt is just rating prose.
 
-## 6. Grading
+## 5. Grading
 
 Outputs are stripped of self-identifying strings, shuffled into a stable
 pseudo-random order, and graded 1-5 against a published rubric
@@ -177,17 +159,16 @@ Two things are recorded but not scored: truncation at the token cap (a harness
 limit, not a model failure) and tool-calling support, which is measured
 separately.
 
-## 7. Tool calling
+## 6. Tool calling
 
 Each model gets one probe per engine: a `tools` array plus a prompt that cannot
 be answered without calling it. This is a gate, not a grade. A model that
 cannot emit a tool call cannot drive a coding agent, whatever its prose scores.
 
-## 8. What went wrong in this run
+## 7. What went wrong in this run
 
 Six defects, all mine, all caught during the run. Each would have produced a
-confident number if it had gone unnoticed, and two of them are the same defects
-the May harness had.
+confident number if it had gone unnoticed.
 
 **8.1 The memory column read zero.** Ollama's `/api/ps` reports
 `qwen3-coder-32k:latest`; `ollama create` registers `qwen3-coder-32k`. The
@@ -199,8 +180,8 @@ obvious. A column of plausible-but-wrong numbers would not have been.
 12.21 GB for Llama-3.3-70B, whose weights are 37 GB on disk. MLX mmaps its
 weights and RSS does not count them. Replaced with macOS `phys_footprint`,
 validated against a known 3 GB allocation, and re-measured: 37.02 GB against
-36.98 GB on disk. **The May run had the same flaw**, which means its memory
-column was wrong for MLX and right for Ollama, and nothing in the output said so.
+36.98 GB on disk. A memory column can be wrong for one engine and right for
+another, and nothing in the output says so.
 
 **8.3 The reasoning model looked like an empty response.** Qwen3.6 returns its
 chain of thought in `message.thinking` (Ollama) and `reasoning_content`
@@ -221,7 +202,7 @@ nothing to do with the model.
 triple-backtick fences. The outputs contain 80 code blocks. The fences collided
 and the packet structure broke. Now the wrapper is always longer than anything
 inside it. Had this gone unnoticed I would have graded garbled text without
-knowing, which is the same class of silent corruption as May's truncation.
+knowing, which is the quietest way for a benchmark to be wrong.
 
 **8.5 The anonymous ids could collide.** Output ids hash
 `(engine, model, prompt)`, so arm A and arm B rows for the same model map to the
@@ -234,12 +215,11 @@ COMPLETE" line that only the original wrapper emitted. It would have waited
 forever. Nothing was lost, but a pipeline that hangs quietly is a pipeline that
 silently drops an arm.
 
-## 9. Results
+## 8. Results
 
-### 9.1 Prefill, not decode, is what makes a local model feel slow
+### 8.1 Prefill, not decode, is what makes a local model feel slow
 
-Every "tokens per second" figure you see quoted, including May's, is a decode
-rate. It describes the part of the work that happens after the model has read
+Every "tokens per second" figure you see quoted is a decode rate. It describes the part of the work that happens after the model has read
 your code. On the 15k-token review prompt:
 
 | Model | prefill | time to first token |
@@ -260,7 +240,7 @@ six minutes is the number that decides whether you can use it, and averaging
 prefill into decode hides it completely. A 24x spread separates the fastest
 prefill from the slowest; the decode spread is 14x.
 
-### 9.2 Ollama versus mlx-lm: no dominant winner
+### 8.2 Ollama versus mlx-lm: no dominant winner
 
 Comparing arm A against arm C, mlx-lm decodes faster on four of five models,
 by 5% to 45%. DeepSeek-Coder-V2-Lite is the exception and it is not close:
@@ -270,27 +250,7 @@ That is the whole finding. Not "MLX is faster", which is what a single-number
 table would have said. It depends on the model, and the one model where Ollama
 wins is the one with the fastest prefill in the study.
 
-### 9.3 The earlier gap was a measurement artefact
-
-The May tables put Ollama ahead of mlx-lm on every model, 43.9 against 21.5
-tok/s on average. Two lines explain the whole gap:
-
-```
-bench.sh:100      tps = eval_count / eval_duration   # generation phase only
-bench-mlx.sh:151  tps = eval_count / wall            # prefill included
-```
-
-mlx-lm was charged for reading a 15k-token prompt and Ollama was not. In that
-run's CSV, `eval_duration_s` and `wall_s` are the same number in every row.
-Measuring both the same way inverts the result on four of five models.
-
-The lesson is not that the old number was too low. It is that the old harness
-could not have produced a comparable number at all, and printed one to a decimal
-place regardless. Nothing was published, so nothing needs retracting; the reason
-to say it here is that the same class of defect showed up again in this run, four
-more times, in section 8.
-
-### 9.4 Upgrading Ollama buys memory, not speed
+### 8.3 Upgrading Ollama buys memory, not speed
 
 Arm A to arm B is Ollama 0.23.2 to 0.32.14, same weights, same GGUF files:
 
@@ -307,7 +267,7 @@ DeepSeek-Coder-V2-Lite. Speed moved by single digits in both directions. On a
 machine where the 70B costs 45 GB of 96, the memory saving is the upgrade's real
 return.
 
-### 9.5 The MLX backend only reaches MLX-format models
+### 8.4 The MLX backend only reaches MLX-format models
 
 Ollama's announcement says Apple Silicon is "now built on top of MLX". Loading
 each model and reading the server log says something more specific:
@@ -339,7 +299,7 @@ study where the format varies and everything else is pinned, and it is the
 single most actionable result here: the artefact you pull matters more than the
 tool you run it with.
 
-### 9.6 Quality is low, and mostly does not depend on the engine
+### 8.5 Quality is low, and mostly does not depend on the engine
 
 Across 52 blind-graded outputs the mean is **2.92 of 5**. Two outputs scored 5.
 Four scored 1.
@@ -367,9 +327,9 @@ would have been scored as hits. This is the strongest argument in the study for
 writing ground truth before grading rather than after.
 
 Engine changed quality by 0.00 for three of five models. The exception is
-discussed in 9.7.
+discussed in 8.6.
 
-### 9.7 The one place format changed quality
+### 8.6 The one place format changed quality
 
 Qwen3-Coder scored 4.00 on Ollama and 2.50 on mlx-lm, and the mechanism was
 visible rather than statistical. On mlx-lm it looped fifteen near-identical
@@ -401,7 +361,7 @@ of the same model, graded by the same rubric, scored 4.00 and did neither of
 these things. Quantization schemes both called "4-bit" are not the same
 arithmetic, and this is what that can cost.
 
-### 9.8 Tool calling fails three ways, and two are the runtime's fault
+### 8.7 Tool calling fails three ways, and two are the runtime's fault
 
 A model that cannot emit a tool call cannot drive a coding agent, whatever it
 scores on prose. Probing each model on each runtime with a `tools` array:
@@ -434,7 +394,7 @@ Llama 3.3's template carries `<|python_tag|>` and `tool_call.name` but not
 incapable. Three of five failures on mlx-lm are one-line parser gaps, not model
 limitations.
 
-### 9.9 What a year of model progress actually bought
+### 8.8 What a year of model progress actually bought
 
 Qwen3.6 35B-A3B (August 2026) against Qwen3-Coder 30B-A3B (July 2025), same
 architecture family, same 3B active parameters:
@@ -453,7 +413,7 @@ What improved is throughput and the ability to participate in an agent loop.
 For a coding assistant those may matter more than a rubric score, which is what
 the second post is about.
 
-## 10. Threats to validity
+## 9. Threats to validity
 
 **Quantization is confounded with engine.** Ollama serves GGUF (Q4_K_M for
 these models); mlx-lm serves MLX 4-bit. Both are "4-bit" and neither is the
@@ -467,7 +427,7 @@ held fixed.
 Thermal state, background load, and page cache are uncontrolled. Differences
 under roughly 10% should not be read as real.
 
-**The judge is a language model.** See section 6. Scores are auditable, not
+**The judge is a language model.** See section 5. Scores are auditable, not
 authoritative.
 
 **Prompt length is not balanced.** Prompt 1 is 15-19k tokens; prompts 2-4 are
@@ -484,10 +444,11 @@ different publishers converting the same upstream weights. They are the same
 model in name and parameter count, not bit-for-bit the same file.
 
 **Neither engine was tuned.** Both run stock settings apart from the shared
-32k context and the two Ollama environment flags carried over from May. A
+32k context and two Ollama environment flags
+(`OLLAMA_FLASH_ATTENTION=1`, `OLLAMA_KV_CACHE_TYPE=q8_0`). A
 tuned deployment of either could look different.
 
-## 11. What I would actually run
+## 10. What I would actually run
 
 On this machine, for coding work, in this order:
 
@@ -509,14 +470,17 @@ keeping, both from the same vendor, and the older five are superseded.
 Whether either can actually drive an agent loop, as opposed to answering one
 question well, is a different measurement. That is the next post.
 
-## 12. Reproducing this
+## 11. Reproducing this
 
-Everything is in the repo: `bench.py` (both engines, one timing method),
-`lib/context.py` (prompt construction), `eval/rubric.md`,
-`eval/ground-truth-1_review.md`, `eval/ground-truth-2_bug.md`, and
-`eval/grades.json` with a one-line justification for all 52 scores. The
-quarantined runs are kept under `invalid-thinking-bug/` with a note explaining
-what went wrong, rather than deleted.
+The harness is [`agentfit`](https://github.com/jaechoidev/agentfit):
+`agentfit speed --engine ollama --repo <a git repo>` produces the speed and
+memory tables, and `agentfit check --engine ollama` runs the tool-calling probe
+and the format comparison in seconds rather than hours.
 
-Raw per-run outputs, timings and memory are under `runs-ollama/` and
-`runs-mlx/`. `report.py` regenerates `results.md` from them.
+The grading rubric and the two ground-truth documents are in `docs/grading/`.
+They matter more than the scores: without a written list of the
+plausible-but-wrong findings, two models that invented a race condition in a
+module with no concurrency would both have been scored as hits.
+
+Run outputs are not checked in. They are regenerable, and a repository that is
+mostly one afternoon's CSV files is an archive rather than a tool.

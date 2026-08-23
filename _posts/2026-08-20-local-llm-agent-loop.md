@@ -3,8 +3,28 @@ title: 'Can a local model actually drive a coding agent?'
 date: 2026-08-20
 permalink: /posts/2026/08/local-llm-agent-loop/
 tags:
-  - project, llm, benchmark, local, agents, aider, opencode, mlx, ollama
+  - local-llm
+  - benchmark
+  - agents
+  - aider
+  - opencode
+  - mlx
+  - ollama
 ---
+
+**In short:** local models fix real bugs, and the harness decides whether they
+get the chance. Given aider, which parses edit blocks out of plain text, all
+thirteen model and engine combinations I tested fixed at least two of three
+real defects, almost always in one turn for about a thousand prompt tokens. The
+best of them was the model I would have ranked last: DeepSeek-Coder-V2-Lite 16B
+scored 2.00 of 5 on written quality and then fixed all three tasks in fourteen
+seconds from an 8.6GB footprint. Given opencode, which requires native tool
+calls, three of seven configurations could not run at all, and Llama 3.3 70B
+fixed nothing across three attempts despite emitting tool calls correctly,
+because at 47 tokens per second of prefill a growing conversation never
+converges before the timeout. That scaffolding costs 47 to 106 times the
+context of the code being fixed, though only 1.3 to 10 times the wall clock,
+since prefix caching absorbs most of the resend.
 
 ## 1. Summary
 
@@ -114,7 +134,7 @@ that harness wiring is not a confounding variable.
 
 ## 5. Measuring the tax
 
-Every request passes through a counting reverse proxy (`lib/proxy.py`) that sits
+Every request passes through a counting reverse proxy (`agentfit/core/proxy.py`) that sits
 between the harness and the inference server. It records, per task: how many
 turns the loop took, how many prompt tokens were sent in total across those
 turns, how many completion tokens came back, and the slowest single turn.
@@ -290,8 +310,9 @@ I do not have a mechanism beyond that, and I am not going to invent one.
 The first tier-2 attempt is void, and the way it failed is more interesting than
 the numbers it would have produced.
 
-Each task runs in a fresh temporary directory: the template is copied out of
-`agent-tasks/`, `git init`-ed, and the harness runs the agent there with
+Each task runs in a fresh temporary directory: the template is copied out of the
+task directory (`agent-tasks/` at the time, `config/tasks/` now), `git init`-ed,
+and the harness runs the agent there with
 `subprocess.run(cwd=workdir)`. That looked like isolation.
 
 Partway through the opencode runs I checked the templates by hand and found
@@ -407,12 +428,14 @@ The speed, memory and written-quality measurements referenced here are in a
 [companion post](/posts/2026/08/local-llm-ollama-vs-mlx/), along with the
 prefill numbers and the tool-calling probe.
 
-`bench-agent.py` runs the loop, `lib/proxy.py` counts the tokens,
-`agent-tasks/` holds the three tasks with their reference fixes, and
-`report-tier2.py` regenerates `results-tier2.md` from the raw runs. Per-task
-transcripts are under `runs-agent/`, including the ones that thrashed.
+The harness is [`agentfit`](https://github.com/jaechoidev/agentfit). The three
+tasks and their reference fixes are in `config/tasks/`, the counting proxy is
+`agentfit/core/proxy.py`, and `agentfit agent --harness aider --engine ollama`
+reproduces the runs above. `pytest tests/` covers the timing arithmetic, the
+stream parsing, and the tamper detection that section 7 is about.
 
-The discarded first attempt is kept in `runs-agent-INVALID-contaminated/` with a
-note explaining what the agent did to the templates and why every row from that
-attempt went in the bin.
+Run outputs are not in the repository, since they are regenerable and would make
+the history mostly data. The numbers quoted here come from a single set of runs
+on one machine, and the point of publishing the harness is that you can produce
+your own rather than trust mine.
 

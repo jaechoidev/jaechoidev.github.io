@@ -3,7 +3,11 @@ title: 'Does grounding still pay? A controlled benchmark of the nuke-context plu
 date: 2026-07-26
 permalink: /posts/2026/07/nuke-context-benchmark/
 tags:
-  - project, nuke, llm, benchmark, claude
+  - nuke
+  - llm
+  - benchmark
+  - claude
+  - vfx
 ---
 
 **Status: working paper from a partial run — the Opus sweep was stopped at 418
